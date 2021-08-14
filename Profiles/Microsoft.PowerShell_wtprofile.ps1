@@ -1,3 +1,6 @@
+#Silence Warnings
+$WarningPreference = "SilentlyContinue"
+
 Import-Module posh-git
 Import-Module oh-my-posh
 Import-Module -Name Terminal-Icons
