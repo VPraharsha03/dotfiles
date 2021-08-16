@@ -21,3 +21,32 @@ function gsudo_pwsh()
  
 #set alias
 set-alias gsudo gsudo_pwsh
+
+# Import Linux Commands to Powershell 5.x (through WSL)
+
+# The commands to import.
+$commands = "awk", "emacs", "git", "grep", "head", "less", "ls", "man", "sed", "seq", "ssh", "tail", "vim"
+
+# Register a function for each command.
+$commands | ForEach-Object { Invoke-Expression @"
+Remove-Item $_ -Force -ErrorAction Ignore
+function global:$_() {
+    for (`$i = 0; `$i -lt `$args.Count; `$i++) {
+        # If a path is absolute with a qualifier (e.g. C:), run it through wslpath to map it to the appropriate mount point.
+        if (Split-Path `$args[`$i] -IsAbsolute -ErrorAction Ignore) {
+            `$args[`$i] = Format-WslArgument (wsl.exe wslpath (`$args[`$i] -replace "\\", "/"))
+        # If a path is relative, the current working directory will be translated to an appropriate mount point, so just format it.
+        } elseif (Test-Path `$args[`$i] -ErrorAction Ignore) {
+            `$args[`$i] = Format-WslArgument (`$args[`$i] -replace "\\", "/")
+        }
+    }
+
+    if (`$input.MoveNext()) {
+        `$input.Reset()
+        `$input | wsl.exe $_ (`$args -split ' ')
+    } else {
+        wsl.exe $_ (`$args -split ' ')
+    }
+}
+"@
+}
