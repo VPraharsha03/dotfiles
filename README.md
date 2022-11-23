@@ -1,5 +1,3 @@
-This is my old config for PowerShell
+This is the branch for kitty on WSL
 
-```
-oh-my-posh v7.85.2
-```
+Check the gist [here](https://gist.github.com/VPraharsha03/dce1692afccdb2d220fffff3ad8448f0)
