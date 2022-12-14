@@ -1,0 +1,1 @@
+These files reside in `vault/.obsidian/snippets`
