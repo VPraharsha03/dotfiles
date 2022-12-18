@@ -1,5 +1,13 @@
-This is the branch for kitty on WSL
+This is the wsltty branch
 
-These files reside in ~/
+Install sixel backend:
 
-Check the gist [here](https://gist.github.com/VPraharsha03/dce1692afccdb2d220fffff3ad8448f0)
+```
+sudo apt install libsixel-bin
+```
+
+Add it your `.bashrc`:
+
+```
+neofetch --sixel fsociety.jpg --size 400px
+```

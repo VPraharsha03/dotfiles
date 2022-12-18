@@ -1,5 +1,0 @@
-[character]
-success_symbol = "🚀 [❯](bold green)"
-
-[cmd_duration]
-format = 'took $duration [✔](bold green) '
