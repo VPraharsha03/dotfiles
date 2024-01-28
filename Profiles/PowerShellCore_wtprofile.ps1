@@ -1,6 +1,5 @@
 $WarningPreference = "SilentlyContinue"
-Import-Module posh-git 
-#Import-Module oh-my-posh
+Import-Module posh-git
 Import-Module WslInterop
 Import-WslCommand "awk", "emacs", "git", "grep", "head", "less", "ls", "man", "nano", "sed", "seq", "ssh", "sudo", "tail", "vim"
 Import-Module -Name Terminal-Icons
@@ -8,7 +7,6 @@ Import-Module Terminal-Icons
 Import-Module PSReadLine
 Set-PSReadLineOption -PredictionSource HistoryAndPlugin
 Set-PSReadLineOption -Colors @{ "InlinePrediction" = "`e[38;5;238m" } #PSReadLine 2.3.4 changes history predictions to 'dim white italic'
-#Set-PoshPrompt -Theme powerline_wt
 
 fastfetch --logo $env:USERPROFILE\.config\fastfetch\ascii.txt
 
