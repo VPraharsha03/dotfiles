@@ -1,0 +1,45 @@
+#:schema https://schema.dojang.dev/2023-11/manifest.schema.json
+
+[dirs.".config"]
+windows = "$UserProfile/.config"
+
+[dirs.".config".kitty]
+linux = "$HOME/.config"
+
+[dirs.windows-terminal]
+windows = "$LocalAppData/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState"
+
+[dirs.clink]
+windows = "$LocalAppData/clink"
+
+[dirs.nushell]
+windows = "$AppData/nushell"
+
+[dirs.oh-my-posh]
+windows = "$POSH_THEMES_PATH"
+
+[dirs.pwsh]
+windows = "$UserProfile/Documents/WindowsPowerShell"
+
+[dirs.pwsh-core]
+windows = "$UserProfile/Documents/PowerShell"
+
+[files]
+
+[ignores]
+oh-my-posh = [
+	"*.psm1",
+]
+
+[monikers]
+linux.os = "linux"
+posix.os = ["linux", "macos"]
+windows.os = "windows"
+
+[monikers.linux-amd64]
+arch = "x86_64"
+os = "linux"
+
+[monikers.linux-wsl]
+os = "linux"
+when = "kernel-release $= \"-microsoft-standard-WSL2\""

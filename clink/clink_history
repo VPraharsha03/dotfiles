@@ -1,0 +1,2392 @@
+|CTAG_1653199730_25161250_2200_0
+|wsh
+|	time=1669307846
+|link info
+|	time=1669307917
+winget install starship
+|	time=1669308023
+ls 
+|	time=1669308026
+|ls
+|	time=1669476766
+cd E:\Self-Initiated Projects\
+|	time=1669476769
+|ir
+|	time=1669476788
+|d/d E:\Self-Initiated Projects\
+|	time=1669476795
+|ir
+|	time=1669476809
+|d/d AdguardStoreInterface\
+|	time=1669555209
+|ls
+|	time=1669555218
+|ls
+|	time=1669565221
+|ls
+|	time=1669565389
+cd/d C:\
+|	time=1669565412
+cd/d C:\Users\
+|	time=1669565486
+|d/d C:\Users\Praharsha\
+|	time=1669565490
+|ls
+|	time=1669565504
+|d/d D:\
+|	time=1669565510
+|ls
+|	time=1669565517
+|d/d C:\Users\Praharsha\
+|	time=1669565521
+|ls
+|	time=1669565671
+|d/d E:\Self-Initiated Projects\
+|	time=1669565677
+|d/d AdguardStoreInterface\
+|	time=1669565686
+|ls
+|	time=1669566496
+|ls
+|	time=1669566500
+cd/d C:\Users\Praharsha\
+|	time=1669566505
+|ls
+|	time=1669566449
+|ls
+|	time=1669566468
+powershell.exe
+|	time=1669569374
+|ls
+|	time=1669707362
+notepad.exe
+|	time=1669707415
+|ir
+|	time=1669707426
+|ls
+|	time=1669707576
+notepad.exe
+|	time=1669707632
+|link info
+|	time=1669707778
+|ano.exe
+|	time=1669707804
+|ls
+|	time=1669707971
+|ano.exe
+|	time=1669708025
+|ls
+|	time=1669708169
+cd/d E:\Self-Initiated Projects\
+|	time=1669708180
+cd/d AdguardStoreInterface\
+|	time=1669708187
+|ls
+|	time=1669733690
+nano.exe
+|	time=1669733705
+|ls
+|	time=1671698370
+|link update
+|	time=1672231599
+|ezterm ls-fonts --list-system
+|	time=1672231608
+cd E:\WezTerm-windows-20221119-145034-49b9839f\
+|	time=1672231615
+|d /d E:\WezTerm-windows-20221119-145034-49b9839f\
+|	time=1672231620
+wezterm ls-fonts --list-system
+|	time=1672231670
+|ls
+|	time=1672231686
+|ezterm ls-fonts 
+|	time=1672231926
+|cho $HOME
+|	time=1672231989
+|ls
+|	time=1672231997
+|ls
+|	time=1672232366
+cd /d E:\WezTerm-windows-20221119-145034-49b9839f\
+|	time=1672232369
+wezterm ls-fonts 
+|	time=1672232568
+|ls
+|	time=1672239491
+cd/d E:\WSLDistros\Pop_OS\rootfs\home\praharsha\
+|	time=1672239496
+|s
+|	time=1672239498
+|ir
+|	time=1672303123
+echo $HOME
+|	time=1672303147
+|cho %HOME%
+|	time=1672303153
+echo %HOME
+|	time=1672303172
+echo %HOMEDRIVE%
+|	time=1672303183
+|cho %COMSPEC%
+|	time=1672304216
+|cho %COMSPEC%
+|	time=1672322344
+cd/d .\AdguardStoreInterface\
+|	time=1672331155
+E:\WezTerm-windows-20221119-145034-49b9839f\wezterm-gui.exe imgcat %USERPROFILE%\.config\wezterm\au-os-M.png
+|	time=1672331181
+E:\WezTerm-windows-20221119-145034-49b9839f\wezterm.exe imgcat %USERPROFILE%\.config\wezterm\au-os-M.png
+|	time=1672332265
+cchoco upgrade starship
+|	time=1672332279
+choco upgrade starship
+|	time=1672332292
+|sudo
+|	time=1672381862
+starship explain
+|	time=1672389547
+E:\WezTerm-windows-20221119-145034-49b9839f\wezterm.exe ls-fonts
+|	time=1672389710
+E:\WezTerm-windows-20221119-145034-49b9839f\wezterm.exe ls-fontss --list-system
+|	time=1672389724
+E:\WezTerm-windows-20221119-145034-49b9839f\wezterm.exe ls-fonts --list-system
+|	time=1672390450
+cd/d "E:\Self-Initiated Projects\AdguardStoreInterface\"
+|	time=1672391192
+|:\WezTerm-windows-20221119-145034-49b9839f\wezterm.exe ls-fonts --text 🎈🎺🎉🎊
+|	time=1672391301
+E:\WezTerm-windows-20221119-145034-49b9839f\wezterm.exe ls-fonts --text 🎈🎺🎉🎊
+|	time=1672391345
+|ls
+|	time=1672391329
+cd ~
+|	time=1672476874
+|link info
+|	time=1672552106
+|link update
+|	time=1672552261
+|link info
+|	time=1672570872
+|link info
+|	time=1672589428
+nano.exe C:\Users\Praharsha\.config\starship.toml
+|	time=1672589440
+|ls
+|	time=1672646130
+|ls
+|	time=1672646142
+|pconfig /flushdns
+|	time=1672646184
+ipconfig /fdisplaynss
+|	time=1672646205
+ipconfig /displaydns
+|	time=1672929010
+ipconfig /flushdns
+|	time=1673082780
+|ls
+|	time=1673238914
+nvim.exe
+|	time=1673239990
+neovide
+|	time=1673243881
+|sl -l -v
+|	time=1673244079
+|it
+|	time=1673244090
+git.exe
+|	time=1673244136
+wslgit.exe
+|	time=1673244148
+git
+|	time=1673244313
+RefreshEnv.cmd
+|	time=1673244423
+git clone https://github.com/NvChad/NvChad $HOME\AppData\Local\nvim --depth 1 && nvim
+|	time=1673244546
+echo %HOME%
+|	time=1673244558
+echo %COMSPEC%
+|	time=1673244606
+echo %LOCALAPPDATA%
+|	time=1673244640
+|it clone https://github.com/NvChad/NvChad %LOCALAPPDATA%\nvim --depth 1 && nvim
+|	time=1673244807
+|vim
+|	time=1673244997
+|it clone https://github.com/NvChad/NvChad %LOCALAPPDATA%\nvim --depth 1 && nvim
+|	time=1673245093
+|it clone https://github.com/NvChad/NvChad %LOCALAPPDATA%\nvim --depth 1 && nvim
+|	time=1673245229
+|it clone https://github.com/NvChad/NvChad %LOCALAPPDATA%\nvim --depth 1 && nvim
+|	time=1673245424
+git clone https://github.com/NvChad/NvChad %LOCALAPPDATA%\nvim --depth 1 && nvim
+|	time=1673245780
+where mingw
+|	time=1673245929
+|here mingw32-gcc
+|	time=1673246498
+g++ --version
+|	time=1673247169
+|ir /d
+|	time=1673247179
+|ir
+|	time=1673252881
+|cho %CLINK_PROFILE%
+|	time=1673252886
+echo %CLINK_PATH%
+|	time=1673252917
+dir /d
+|	time=1673252965
+|link info
+|	time=1673530574
+|link update
+|	time=1673590692
+|sudo RefreshEnv.cmd
+|	time=1673590717
+where mingw32-gcc
+|	time=1673590725
+|here g++
+|	time=1673591032
+git clone https://github.com/NvChad/NvChad $HOME\AppData\Local\nvim --depth 1 && nvim.exe
+|	time=1673591103
+git clone https://github.com/NvChad/NvChad %localappdata%\nvim --depth 1 && nvim.exe
+|	time=1673592046
+nvim
+|	time=1673592242
+git clone https://github.com/wbthomason/packer.nvim "%LOCALAPPDATA%\nvim-data\site\pack\packer\start\packer.nvim"
+|	time=1673592258
+nvim +PackerSync
+|	time=1673592282
+nvim 
+|	time=1673592647
+gsudo RefreshEnv.cmd
+|	time=1673592654
+where g++
+|	time=1673963658
+clink_x64.exe
+|	time=1673963681
+clink_x64.exe inject -q
+|	time=1673965282
+clink_x64.exe --profile C:\Users\Praharsha\.config\clink
+|	time=1673965990
+clink_x64.exe inject  --profile C:\Users\Praharsha\.config\clink
+|	time=1673967291
+set CLINK_PROFILE=C:\Users\Praharsha\.config\clink
+|	time=1673967313
+echo %CLINK_PROFILE%
+|	time=1673967329
+|link info
+|	time=1674304379
+cd G:\
+|	time=1674304384
+cd/d G:\
+|	time=1674304397
+for %%f in (*.mpg) do ffmpeg -i "%%f" -s 720x576 -progress pipe:1 -movflags faststart -profile:v high -level 4.2 "%%~nf-converted.mp4"
+|	time=1679240162
+|pconfig
+|	time=1679480122
+|ip install lama-cleaner
+|	time=1679480220
+|onda activate ML
+|	time=1679480225
+pip install lama-cleaner
+|	time=1679480479
+pip cache purge
+|	time=1679480514
+C:\Anaconda3\envs\ML\lib\site-packages\pip 
+|	time=1679480542
+C:\Anaconda3\envs\ML\python.exe C:\Anaconda3\envs\ML\lib\site-packages\pip
+|	time=1679480548
+C:\Anaconda3\envs\ML\python.exe C:\Anaconda3\envs\ML\lib\site-packages\pip --version
+|	time=1679480628
+C:\Anaconda3\envs\ML\python.exe C:\Anaconda3\envs\ML\lib\site-packages\pip install --upgrade pip
+|	time=1679480661
+C:\Anaconda3\envs\ML\python.exe -m C:\Anaconda3\envs\ML\lib\site-packages\pip install --upgrade pip
+|	time=1679480679
+C:\Anaconda3\envs\ML\python.exe -m pip install --upgrade pip
+|	time=1679480784
+C:\Anaconda3\envs\ML\python.exe cache dir
+|	time=1679480800
+C:\Anaconda3\envs\ML\python.exe pip cache dir
+|	time=1679480813
+C:\Anaconda3\envs\ML\python.exe C:\Anaconda3\envs\ML\lib\site-packages\pip cache dir
+|	time=1679480824
+|:\Anaconda3\envs\ML\python.exe C:\Anaconda3\envs\ML\lib\site-packages\pip cache info
+|	time=1679480872
+C:\Anaconda3\envs\ML\python.exe C:\Anaconda3\envs\ML\lib\site-packages\pip install lama-cleaner
+|	time=1679481316
+|ama-cleaner.exe --model=lama --device=cpu --port=8080
+|	time=1679483288
+|onda activate ML
+|	time=1679483294
+lama-cleaner.exe --model=lama --device=cpu --port=8080
+|	time=1679484545
+|onda activate ML
+|	time=1679484560
+echo %CONDA_PREFIX%
+|	time=1679484605
+|onda info --envs
+|	time=1679484649
+C:\Anaconda3\envs\ML\python.exe C:\Anaconda3\envs\ML\lib\site-packages\pip cache info
+|	time=1679484727
+C:\Anaconda3\envs\ML\python.exe C:\Anaconda3\envs\ML\lib\site-packages\pip install backgroundremover
+|	time=1679485016
+|ackgroundremover.exe -i "C:\Users\Praharsha\Desktop\Best.jpg" -o "C:\Users\Praharsha\Desktop\output.png"
+|	time=1679485458
+backgroundremover.exe -i "C:\Users\Praharsha\Desktop\Best.jpg" -o "C:\Users\Praharsha\Desktop\output.png"
+|	time=1679485562
+backgroundremover.exe -i "C:\Users\Praharsha\Desktop\Best.jpg" -a -ae 15 -o "C:\Users\Praharsha\Desktop\output.png"
+|	time=1679485758
+backgroundremover.exe -i "C:\Users\Praharsha\Desktop\Best.jpg" -m "u2net_human_seg" -a -ae 15 -o "C:\Users\Praharsha\Desktop\output.png"
+|	time=1679486110
+|ackgroundremover.exe --help
+|	time=1679486197
+backgroundremover.exe -i "C:\Users\Praharsha\Desktop\Best.jpg" -m "u2net_human_seg" -a -ab 15 -o "C:\Users\Praharsha\Desktop\output1.png"
+|	time=1679486282
+backgroundremover.exe -i "C:\Users\Praharsha\Desktop\Best.jpg" -m "u2net_human_seg" -a -ae 35 -o "C:\Users\Praharsha\Desktop\output1.png"
+|	time=1679486400
+backgroundremover.exe -i "C:\Users\Praharsha\Desktop\Best.jpg" -m "u2net_human_seg" -a -ae 5 -o "C:\Users\Praharsha\Desktop\output1.png"
+|	time=1679486467
+backgroundremover.exe -i "C:\Users\Praharsha\Desktop\Best.jpg" -m "u2net_human_seg" -a -ae 20 -o "C:\Users\Praharsha\Desktop\output1.png"
+|	time=1679489039
+|onda activate ML
+|	time=1679489069
+backgroundremover.exe -i "C:\Users\Praharsha\Desktop\output.png" -m "u2net_human_seg" -o "C:\Users\Praharsha\Desktop\output1.png"
+|	time=1679489153
+backgroundremover.exe -i "C:\Users\Praharsha\Desktop\output.png" -m "u2net" -o "C:\Users\Praharsha\Desktop\output1.png"
+|	time=1679489209
+C:\Anaconda3\envs\ML\python.exe C:\Anaconda3\envs\ML\lib\site-packages\pip cache
+|	time=1679489220
+C:\Anaconda3\envs\ML\python.exe C:\Anaconda3\envs\ML\lib\site-packages\pip cache purge
+|	time=1679489240
+|onda deactivate
+|	time=1679489247
+pip cache info
+|	time=1679495019
+|onda activate ML
+|	time=1679495039
+C:\Anaconda3\envs\ML\python.exe --version
+|	time=1679495165
+conda update python
+|	time=1679495294
+conda update python=3.8.5
+|	time=1679495307
+|onda deactivate
+|	time=1679495312
+|ython --version
+|	time=1679495331
+C:\Anaconda3\python.exe --version
+|	time=1679495486
+|onda activate ML
+|	time=1679495883
+C:\Anaconda3\envs\ML\python.exe C:\Anaconda3\envs\ML\lib\site-packages\pip uninstall lama-cleaner
+|	time=1679495911
+|onda deactivate
+|	time=1679495955
+|onda activate ML
+|	time=1679495989
+backgroundremover.exe -i "C:\Users\Praharsha\Desktop\Best.jpg" -m "u2net_human_seg" -a -af 15 -o "C:\Users\Praharsha\Desktop\output1.png"
+|	time=1679496095
+backgroundremover.exe -i "C:\Users\Praharsha\Desktop\Best.jpg" -m "u2net_human_seg" -a -af 100 -o "C:\Users\Praharsha\Desktop\output1.png"
+|	time=1679496163
+backgroundremover.exe -i "C:\Users\Praharsha\Desktop\Best.jpg" -m "u2net" -a -af 100 -o "C:\Users\Praharsha\Desktop\output1.png"
+|	time=1679496217
+backgroundremover.exe -i "C:\Users\Praharsha\Desktop\Best.jpg" -m "u2net_human_seg" -a -ab 100 -o "C:\Users\Praharsha\Desktop\output1.png"
+|	time=1679496279
+backgroundremover.exe --help
+|	time=1679496445
+backgroundremover.exe -i "C:\Users\Praharsha\Desktop\Best.jpg" -m "u2net_human_seg" -a -ae 15 -ab 100 -o "C:\Users\Praharsha\Desktop\output1.png"
+|	time=1679502019
+|onda deactivate
+|	time=1679501222
+cd Desktop\
+|	time=1679501226
+youtube-dl.exe
+|	time=1679501235
+youtube-dl.exe --help
+|	time=1679501333
+|ls
+|	time=1679501349
+youtube-dl.exe -x https://soundcloud.com/c-ng-kidd/bury-the-light-casey-edwards-ft-victor-borba
+|	time=1679579067
+|pconfig
+|	time=1679648077
+choco install youtube-dl
+|	time=1679648100
+gsudo choco install youtube-dl
+|	time=1682146593
+wg genkey
+|	time=1682149959
+wireguard.exe /installtunnelservic "C:\WireGuard\wg_serv.conf"
+|	time=1682149971
+wireguard.exe /installtunnelservice "C:\WireGuard\wg_serv.conf"
+|	time=1682149985
+|sudo wireguard.exe /installtunnelservice "C:\WireGuard\wg_serv.conf"
+|	time=1682150047
+wg
+|	time=1682150055
+gsudo wg
+|	time=1682152941
+ipconfig
+|	time=1682153705
+gsudo nano C:\Windows\System32\WindowsPowerShell\v1.0\Modules\wireguard\wireguard.psm1
+|	time=1682153837
+|sudo powershell
+|	time=1682154580
+|sudo wireguard.exe /help
+|	time=1682154602
+gsudo wireguard.exe /help
+|	time=1682154626
+|sudo wireguard.exe /uninstalltunnelservice "wg_serv"
+|	time=1682181126
+|sudo wireguard.exe /installtunnelservice "C:\WireGuard\wg_serv.conf"
+|	time=1682181179
+gsudo powershell.exe
+|	time=1682183264
+|sudo wireguard.exe /installtunnelservice "C:\WireGuard\wg_serv.conf"
+|	time=1682183284
+|sudo wireguard.exe /uninstalltunnelservice "wg_serv"
+|	time=1682183287
+|sudo wireguard.exe /installtunnelservice "C:\WireGuard\wg_serv.conf"
+|	time=1682183298
+|sudo powershell
+|	time=1682184160
+|link update
+|	time=1682184219
+|sudo wireguard.exe /uninstalltunnelservice "wg_serv"
+|	time=1682184233
+|sudo wireguard.exe /uninstalltunnelservice "wg_serv"
+|	time=1682227317
+gsudo wireguard.exe /installtunnelservice "C:\WireGuard\wg_serv.conf"
+|	time=1682227443
+gsudo powershell
+|	time=1682229682
+gsudo wireguard.exe /uninstalltunnelservice "wg_serv"
+|	time=1693721937
+refreshenv
+|	time=1693723115
+reg /?
+|	time=1693723120
+|eg add /?
+|	time=1694087620
+|mic MemoryChip get MemoryType, Name, Capacity, Configuredclockspeed, DeviceLocator, FormFactor, Manufacturer, Serialnumber, Speed
+|	time=1694087631
+wmic MemoryChip get MemoryType, Name, Capacity, Configuredclockspeed, DeviceLocator, FormFactor, Manufacturer, Serialnumber, Speed
+|	time=1694166863
+|hkdsk c: /r
+|	time=1694166897
+|hkdsk c: /r
+|	time=1694166941
+|hkdsk c: /r
+|	time=1694171209
+|hkdsk c: /r
+|	time=1694171460
+|hkdsk c: /r
+|	time=1694172177
+|hkdsk c: /r
+|	time=1694172328
+chkdsk c: /f
+|	time=1694172384
+|hkdsk c: /r /f
+|	time=1694172441
+chkdsk c: /r /f
+|	time=1694174522
+|hkdsk c: /r
+|	time=1694182797
+chkdsk c: /r
+|	time=1694183445
+chkdsk z: /r
+|	time=1694346520
+|hoco upgrade microsoft-windows-terminal
+|	time=1694346942
+choco upgrade microsoft-windows-terminal
+|	time=1694414224
+|d /s "C:\Windows10Upgrade"
+|	time=1694414415
+icacls "C:\Windows10Upgrade" /grant "%USERDOMAIN%\%USERNAME%":(F) /t
+|	time=1694414419
+rd /s "C:\Windows10Upgrade"
+|	time=1694414493
+|d /s "C:\Windows.old"
+|	time=1694414760
+|ls
+|	time=1694414775
+icacls "C:\Windows.old"
+|	time=1694414892
+icacls "C:\Windows.old" /save E:\perms.txt /t /c
+|	time=1694415431
+|cacls "C:\Windows.old" /grant "%USERDOMAIN%\%USERNAME%":(F) /t
+|	time=1694415481
+|d /s "C:\Windows.old"
+|	time=1694415646
+icacls "C:\Windows.old" /grant "%USERDOMAIN%\%USERNAME%":(F) /t
+|	time=1694415681
+icacls "C:\Windows.old" /grant "%USERDOMAIN%\%USERNAME%":(F) /t /c
+|	time=1694415774
+rd /s "C:\Windows.old"
+|	time=1694415885
+icacls "C:\Windows.old" /reset /t /c
+|	time=1694502531
+wusa E:\windows10.0-kb5029331-x64_3cfd0ab38bbbc7d4e4b742eb2e50e48155f77995.msu /norestart
+|	time=1694502553
+|usa E:\windows10.0-kb5029331-x64_3cfd0ab38bbbc7d4e4b742eb2e50e48155f77995.msu
+|	time=1694502640
+wusa E:\windows10.0-kb5029331-x64_3cfd0ab38bbbc7d4e4b742eb2e50e48155f77995.msu
+|	time=1694508671
+|efreshenv.cmd
+|	time=1694508676
+|ls
+|	time=1694584985
+choco install chocolateygui
+|	time=1694586203
+icacls "D:\found.000" /reset /t /c
+|	time=1694586223
+gsudo icacls "D:\found.000" /reset /t /c
+|	time=1694590605
+clink --help
+|	time=1694590641
+clink inject yori
+|	time=1694590928
+clink updat
+|	time=1694590934
+|link update
+|	time=1694591532
+|lear
+|	time=1694591535
+|ls
+|	time=1694671786
+conda config --add channels conda-forge
+|	time=1694671792
+conda install xonsh
+|	time=1694672809
+|onsh
+|	time=1694673801
+where xonsh
+|	time=1694673185
+where activate
+|	time=1694674508
+|onsh
+|	time=1694673870
+|onda activate ML
+|	time=1694683150
+winget install nushell
+|	time=1694683191
+choco install nushell.install
+|	time=1694683204
+gsudo choco install nushell.install
+|	time=1694683244
+|u
+|	time=1694685715
+|link info
+|	time=1694685725
+clink help
+|	time=1694685739
+|link autorun
+|	time=1694685744
+|link autorun --help
+|	time=1694685842
+|link autorun show
+|	time=1694685973
+|lear
+|	time=1694685977
+|ls
+|	time=1694686046
+|onsh
+|	time=1694757867
+cd flutter_windows_3.13.4-stable
+|	time=1694757874
+cd ..\flutter_windows_3.13.4-stable
+|	time=1694757876
+|ls
+|	time=1694757912
+|d flutter
+|	time=1694757924
+|ir
+|	time=1694757994
+.\bin\flutter.bat
+|	time=1694758041
+.\bin\flutter.bat --disable-telemetry
+|	time=1694758063
+.\bin\flutter.bat doctor
+|	time=1694769486
+flutter.bat doctor
+|	time=1694877162
+chkdsk C: /v /r /x
+|	time=1694933611
+dispart
+|	time=1694933614
+|iskpart
+|	time=1695136104
+|onsh
+|	time=1695136194
+|onsh
+|	time=1695136287
+|ls
+|	time=1695190716
+py --version
+|	time=1695190727
+|onda install python=3.9
+|	time=1695190338
+oh-my-posh --version
+|	time=1695190349
+|onsh
+|	time=1695386508
+|ls
+|	time=1695386515
+conda udate conda
+|	time=1695386519
+|lear
+|	time=1695386521
+|ls
+|	time=1695386528
+conda update conda
+|	time=1695387295
+|onda --version
+|	time=1695387302
+conda install python=3.9
+|	time=1695387814
+|ls
+|	time=1695387818
+conda install mamba -n base -c conda-forge
+|	time=1695390927
+mamba 
+|	time=1695390963
+|amba install python=3.9
+|	time=1695401161
+icacls "C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.17.11461.0_x64__8wekyb3d8bbwe\ProfileIcons" /reset /t /c
+|	time=1695401176
+gsudo icacls "C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.17.11461.0_x64__8wekyb3d8bbwe\ProfileIcons" /reset /t /c
+|	time=1695401230
+|sudo icacls "C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.17.11461.0_x64__8wekyb3d8bbwe\ProfileIcons" /grant "%USERDOMAIN%\%USERNAME%":(F) /t /c
+|	time=1695401236
+gsudo icacls "C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.17.11461.0_x64__8wekyb3d8bbwe\ProfileIcons" /grant "%USERDOMAIN%\%USERNAME%":(F) /t /c
+|	time=1695402102
+python --version
+|	time=1695401802
+|onsh
+|	time=1695402589
+|onsh
+|	time=1695456741
+winget install --id=voidtools.Everything  -e
+|	time=1695447327
+|onsh
+|	time=1695458351
+|link info
+|	time=1695458751
+cd flutter
+|	time=1695458756
+cd d:\
+|	time=1695458764
+|d/d D:\
+|	time=1695459710
+echo POSH_THEMES_PATH
+|	time=1695459731
+|cho %POSH_THEMES_PATH%
+|	time=1695459792
+cd/d D:\
+|	time=1695459825
+|d/d E:\ClonedRepos\GentooWSL2\
+|	time=1695459861
+|sudo
+|	time=1695459970
+%POSH_THEMES%
+|	time=1695459974
+|cho %POSH_THEMES%
+|	time=1695459994
+|lear
+|	time=1695459996
+|ls
+|	time=1695460000
+%POSH_THEMES_PATH%
+|	time=1695460021
+C:\Users\Praharsha\AppData\Local\Programs\oh-my-posh\themes\tokyonight
+|	time=1695459565
+oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/mt.omp.json' | Invoke-Expression
+|	time=1695459584
+oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/mt.omp.json'
+|	time=1695460236
+|d/d E:\ClonedRepos\GentooWSL2\
+|	time=1695470129
+|d/d E:\ClonedRepos\GentooWSL2\
+|	time=1695470145
+cd/d E:\ClonedRepos\GentooWSL2\
+|	time=1695461361
+cd/d E:\ClonedRepos\GentooWSL2
+|	time=1695552962
+%CONDA_PATH%
+|	time=1695550855
+mamba install python=3.9
+|	time=1695550864
+mamba install python=3.9.0
+|	time=1695552684
+mamba update -all
+|	time=1695552695
+mamba update --all
+|	time=1695553180
+dir E:\Anaconda3\envs\ML\conda-meta\
+|	time=1695554682
+mamba install python=3.9.0 --no-pin
+|	time=1695561626
+|onda info
+|	time=1695561658
+notepad %USERPROFILE%\.condarc
+|	time=1695561863
+conda install blaze
+|	time=1695561884
+mamba install blaze
+|	time=1695562398
+conda create -n DS python=3.9.0
+|	time=1695562459
+mamba create -n DS python=3.9.0
+|	time=1695562823
+mamba activate DS
+|	time=1695562833
+|onsh
+|	time=1695563468
+xonsh
+|	time=1695563884
+xonsh --version
+|	time=1695740229
+oh-my-posh init pwsh --config '%POSH_THEMES%/paradox.omp.json'
+|	time=1695740247
+echo %POSH_THEMES%
+|	time=1695740261
+|cho %POSH_THEMES_PATH%
+|	time=1695740305
+oh-my-posh init pwsh --config "C:\Program Files (x86)\oh-my-posh\themes\paradox.omp.json"
+|	time=1695740366
+oh-my-posh init pwsh --config 'C:\Program Files (x86)\oh-my-posh\themes\paradox.omp.json'
+|	time=1695740382
+oh-my-posh init cmd --config 'C:\Program Files (x86)\oh-my-posh\themes\paradox.omp.json'
+|	time=1695740395
+|h-my-posh init cmd --config "C:\Program Files (x86)\oh-my-posh\themes\paradox.omp.json"
+|	time=1695741178
+|link info
+|	time=1695741209
+notepad C:\Users\Praharsha\AppData\Local\clink\oh-my-posh.lua 
+|	time=1695741233
+|sudo
+|	time=1695823066
+conda info
+|	time=1695823105
+conda update -n base conda
+|	time=1695823257
+|onda update -n base -c conda-forge conda
+|	time=1695823551
+cllear
+|	time=1695823557
+|lear
+|	time=1695823559
+|ls
+|	time=1695823567
+conda update -n base -c conda-forge conda
+|	time=1695824108
+|onda update -n base -c defaults conda --repodata-fn=repodata.json
+|	time=1695826937
+mamba update -n base -c defaults conda --repodata-fn=repodata.json
+|	time=1695827847
+|onda update -n base -c defaults conda --repodata-fn=repodata.json
+|	time=1695879495
+pip uninstall pyopenssl
+|	time=1695879518
+conda update -n base -c defaults conda --repodata-fn=repodata.json
+|	time=1695880237
+conda install -n base -c defaults conda=23.3.1
+|	time=1695880303
+mamba install -n base -c defaults conda
+|	time=1695880438
+conda install -n base -c defaults conda
+|	time=1695880782
+|ls
+|	time=1695880792
+conda install -n base -c defaults conda=23.7.4
+|	time=1695884557
+|onda install --help
+|	time=1695884682
+23.7.4cls
+|	time=1695884685
+|ls
+|	time=1695884723
+conda install -n base -c defaults conda=23.7.4 python=3.11 --repodata-fn=repodata.json
+|	time=1695885353
+|ls
+|	time=1695885384
+conda install -n base -c defaults 'anaconda>=2023.08' conda=23.7.4 python=3.10 --repodata-fn=repodata.json
+|	time=1695887529
+conda install -n base 'anaconda>=2023.07' 'conda=23.7.4' python=3.10 --repodata-fn=repodata.json
+|	time=1695888005
+conda install --help
+|	time=1695888072
+|onda install -n base 'anaconda>=2023.07' 'conda=23.7.4' python=3.10 --repodata-fn=repodata.json --yes
+|	time=1695888087
+|ls
+|	time=1695888088
+conda install -n base 'anaconda>=2023.07' 'conda=23.7.4' python=3.10 --repodata-fn=repodata.json --yes
+|	time=1695891555
+mamba install -n base 'anaconda>=2023.07' 'conda=23.7.4' python=3.10 --repodata-fn=repodata.json --yes
+|	time=1695891615
+mamba install -n base 'anaconda>=2023.07' 'conda=23.7.4' python=3.10
+|	time=1695891786
+mamba install -n base 'conda=23.7.4' python=3.10
+|	time=1695892239
+mamba install -n base 'conda=23.3' 
+|	time=1695892408
+conda --info
+|	time=1695892418
+conda
+|	time=1695892427
+|onda --version
+|	time=1695892468
+|ls
+|	time=1695892511
+mamba install -n base conda=22.11 --repodata-fn=repodata.json
+|	time=1695893882
+gsudo choco install python311
+|	time=1695900799
+|onda info --envs
+|	time=1695900825
+pip install conda-pack
+|	time=1695900929
+|onda pack -n ML -o F:\ML.tar.gz
+|	time=1695901307
+conda unpack
+|	time=1695901325
+conda-unpack
+|	time=1695902039
+|onda pack --version
+|	time=1695902067
+mamba update conda-pack
+|	time=1695902941
+conda pack -n ML -o F:\ML.tar.gz
+|	time=1695902955
+conda pack --version
+|	time=1695902970
+conda pack --help
+|	time=1695903276
+conda pack -n ML -o F:\ML.tar.gz --ignore-missing-files
+|	time=1695966980
+|onda pack -n ML -o F:\ML.tar.gz 
+|	time=1695976843
+conda --version
+|	time=1695979377
+|onda pack -n ML -o F:\ML.tar.gz 
+|	time=1695979514
+conda activate ML
+|	time=1695979519
+conda list
+|	time=1695979620
+mamba install certifi=2022.12.7
+|	time=1695979640
+|onda deactivate
+|	time=1695979655
+mamba install -n ML certifi=2022.12.7
+|	time=1695979857
+mamba install -n ML jinja2=2.11.3 markupsafe=2.0.1 more-itertools=8.7.0 pip=23.0.1 pygments=2.14.0 six=1.16.0
+|	time=1695979891
+mamba install -n ML 'jinja2=2.11.3' 'markupsafe=2.0.1' 'more-itertools=8.7.0' 'pip=23.0.1' 'pygments=2.14.0' 'six=1.16.0'
+|	time=1695980004
+conda pack -n ML -o F:\ML.tar.gz 
+|	time=1695983190
+|onda info --envs
+|	time=1695983208
+conda pack -n DS -o F:\DS.tar.gz 
+|	time=1695983317
+conda pack -n twitter_sent -o F:\ts.tar.gz 
+|	time=1697082211
+clink autorun --help
+|	time=1697082233
+clink autorun
+|	time=1697082243
+clink install
+|	time=1697082266
+clink install autorun
+|	time=1697082322
+clink autorun show
+|	time=1697082330
+clink autorun install
+|	time=1697082351
+|link update
+|	time=1697087269
+pip install thonny
+|	time=1697087329
+thonny
+|	time=1697082917
+|link info
+|	time=1697083021
+winget install sharkdp.bat
+|	time=1697083045
+|at
+|	time=1697083052
+|efreshenv.cmd
+|	time=1697083056
+bat
+|	time=1697083181
+bat C:\Users\Praharsha\.inputrc
+|	time=1697083234
+bat C:\Users\Praharsha\AppData\Local\clink\.inputrc
+|	time=1697083302
+bat "C:\Program Files (x86)\clink\default_inputrc"
+|	time=1697258900
+conda activate DS
+|	time=1697258907
+|onda info --envs
+|	time=1697258981
+mkdir F:\Learnbay
+|	time=1697258988
+mkdir F:\Learnbay\Assignments
+|	time=1697258997
+|d/d F:\Learnbay\Assignments\
+|	time=1697259009
+jupyter
+|	time=1697259027
+|upyter notebook
+|	time=1697260410
+cd/d F:\Learnbay\
+|	time=1697260415
+|upyter notebook
+|	time=1697268974
+deactivate.bat
+|	time=1697277052
+|xplorer.exe
+|	time=1697277068
+explorer.exe
+|	time=1697288635
+|d/d F:\Learnbay
+|	time=1697288640
+|upyter notebook
+|	time=1697343581
+pip3.11 install rich
+|	time=1697343600
+pip3.11 install --user rich
+|	time=1697343665
+|ython3.11
+|	time=1697343776
+python3.11
+|	time=1697343794
+|ls
+|	time=1697343828
+python3.11 -m rich
+|	time=1697346248
+|d/d F:\Learnbay
+|	time=1697346250
+|upyter notebook
+|	time=1697372947
+|d/d E:\ClonedRepos\
+|	time=1697373014
+git clone https://github.com/VPraharsha03/hamilton.git
+|	time=1697373084
+python -m hamilton F:\venvs\hamilton
+|	time=1697373106
+python -m venv F:\venvs\hamilton
+|	time=1697373130
+|:\venvs\hamilton\Scripts\activate.bat
+|	time=1697373143
+cd/d hamilton\
+|	time=1697373155
+|ip install \
+|	time=1697373170
+pip install \
+|	time=1697373189
+pip install -r requirements.txt
+|	time=1697373228
+pip install -r requirements-dev.txt
+|	time=1697373242
+pip install -r requirements-tests.txt
+|	time=1697373248
+pip install -r requirements-test.txt
+|	time=1697373341
+|ip --version
+|	time=1697373355
+pre-commit install
+|	time=1697389739
+|eactivate
+|	time=1697439038
+|:\venvs\hamilton\Scripts\activate.bat
+|	time=1697439042
+|eactivate
+|	time=1697440944
+|:\venvs\hamilton\Scripts\activate.bat
+|	time=1697440955
+|eactivate
+|	time=1697438024
+echo %POSH_THEMES_PATH%
+|	time=1697441158
+cd/d F:\Learnbay
+|	time=1697441163
+|upyter notebook
+|	time=1697447228
+|eactivate
+|	time=1697540181
+cd/d F:\venvs\hamilton\Scripts\activate
+|	time=1697540192
+|:\venvs\hamilton\Scripts\activate.bat
+|	time=1697560939
+|re-commit run --all-files
+|	time=1697610863
+|:\venvs\hamilton\Scripts\activate.bat
+|	time=1697611765
+|re-commit run --all-files
+|	time=1697611826
+|re-commit run --all-files
+|	time=1697611831
+|ls
+|	time=1697611832
+|re-commit run --all-files
+|	time=1697613680
+|ls
+|	time=1697613681
+|re-commit run --all-files
+|	time=1697631389
+|re-commit run --all-files
+|	time=1697631431
+|re-commit run --all-files
+|	time=1697643876
+|ls
+|	time=1697643879
+|re-commit run --all-files
+|	time=1697644265
+|ircleci local execute
+|	time=1697644292
+circleci update install
+|	time=1697644313
+gsudo circleci update install
+|	time=1697644328
+|ircleci local execute
+|	time=1697644486
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697645325
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697645899
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697646466
+|ls
+|	time=1697646468
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697646492
+|ls
+|	time=1697646493
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697647232
+|y tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697647320
+|y
+|	time=1697647355
+|ls
+|	time=1697647357
+py tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697647595
+|y
+|	time=1697650472
+|:\venvs\hamilton\Scripts\activate.bat
+|	time=1697650517
+pip --version
+|	time=1697650526
+|ls
+|	time=1697650540
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697650585
+|ls
+|	time=1697650586
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697651002
+|y
+|	time=1697653589
+|ls
+|	time=1697693239
+|:\venvs\hamilton\Scripts\activate.bat
+|	time=1697693242
+|y
+|	time=1697695729
+pip install matplotlib
+|	time=1697695742
+|y
+|	time=1697695748
+|ls
+|	time=1697695752
+|y
+|	time=1697698578
+|ls
+|	time=1697698580
+|y
+|	time=1697698727
+|ls
+|	time=1697698798
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697698938
+|re-commit run --all-files
+|	time=1697698998
+circleci local execute
+|	time=1697699086
+circleci local execute job
+|	time=1697699235
+cd \.circleci
+|	time=1697699242
+cd/d .circleci
+|	time=1697699262
+|ircleci config validate
+|	time=1697699290
+ls
+|	time=1697699291
+|ir
+|	time=1697699301
+cd ..
+|	time=1697699305
+|ls
+|	time=1697699308
+circleci config validate
+|	time=1697699508
+|re-commit run --all-files
+|	time=1697699553
+|re-commit run --all-files
+|	time=1697699918
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697700032
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697700043
+|ls
+|	time=1697700045
+|re-commit run --all-files
+|	time=1697700058
+|re-commit run --all-files
+|	time=1697700079
+|re-commit run --all-files
+|	time=1697700105
+|re-commit run --all-files
+|	time=1697701395
+|re-commit run --all-files
+|	time=1697704034
+|:\venvs\hamilton\Scripts\activate.bat
+|	time=1697704040
+|ls
+|	time=1697704052
+|re-commit run --all-files
+|	time=1697704087
+|re-commit run --all-files
+|	time=1697704110
+|re-commit run --all-files
+|	time=1697707954
+|ls
+|	time=1697707956
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697707981
+|ls
+|	time=1697707982
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697708072
+|ls
+|	time=1697708073
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697708092
+|ls
+|	time=1697708092
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697708174
+|ls
+|	time=1697708174
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697708521
+|ls
+|	time=1697708522
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697708531
+|re-commit run --all-files
+|	time=1697708554
+|re-commit run --all-files
+|	time=1697708575
+|re-commit run --all-files
+|	time=1697708600
+|re-commit run --all-files
+|	time=1697819882
+|link update
+|	time=1697819933
+|python
+|	time=1697804034
+|onda info --envs
+|	time=1697804215
+py -3.7
+|	time=1697804368
+pip install "rich[jupyter]"
+|	time=1697807713
+|python
+|	time=1697819135
+|efreshenv.cmd
+|	time=1697819249
+|y
+|	time=1697819862
+|python
+|	time=1697819961
+|y
+|	time=1697820037
+ipython
+|	time=1697797964
+|:\venvs\hamilton\Scripts\activate.bat
+|	time=1697797968
+|ls
+|	time=1697798876
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697798925
+|ls
+|	time=1697798926
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697799050
+|ls
+|	time=1697799051
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697799183
+|ls
+|	time=1697799187
+|ls
+|	time=1697799188
+|y
+|	time=1697799376
+|ls
+|	time=1697799385
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697799411
+|re-commit run --all-files
+|	time=1697799435
+|re-commit run --all-files
+|	time=1697799994
+|y
+|	time=1697803831
+|y -0p
+|	time=1697803861
+|y -3.7
+|	time=1697803922
+|eactivate
+|	time=1697803924
+py -3.7
+|	time=1697807183
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697807187
+|ls
+|	time=1697807189
+|:\venvs\hamilton\Scripts\activate.bat
+|	time=1697807192
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697813315
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697813326
+|ls
+|	time=1697813335
+|re-commit run --all-files
+|	time=1697816157
+|ls
+|	time=1697816159
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697816181
+|ls
+|	time=1697816184
+|re-commit run --all-files
+|	time=1697820300
+deactivate
+|	time=1697822127
+|y
+|	time=1697821582
+|:\venvs\hamilton\Scripts\activate.bat
+|	time=1697821594
+|y
+|	time=1697821630
+py -0p
+|	time=1697821649
+pip install rich
+|	time=1697821661
+|y
+|	time=1697822114
+|ls
+|	time=1697824317
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697824402
+|ls
+|	time=1697824404
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697824416
+|ls
+|	time=1697824419
+|re-commit run --all-files
+|	time=1697824454
+|re-commit run --all-files
+|	time=1697824632
+circleci local execute build-py37
+|	time=1697825072
+|ls
+|	time=1697825074
+|re-commit run --all-files
+|	time=1697825096
+|ls
+|	time=1697825098
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697825559
+|ls
+|	time=1697825561
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697825613
+|ls
+|	time=1697825744
+|eactivate.bat 
+|	time=1697825790
+|:\venvs\hamilton\Scripts\activate.bat
+|	time=1697825798
+|ls
+|	time=1697825800
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697825803
+|ls
+|	time=1697825805
+|re-commit run --all-files
+|	time=1697825926
+|eactivate.bat 
+|	time=1697865758
+|:\venvs\hamilton\Scripts\activate.bat
+|	time=1697865760
+|ls
+|	time=1697865763
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697865784
+|ls
+|	time=1697865787
+|re-commit run --all-files
+|	time=1697865811
+|re-commit run --all-files
+|	time=1697865833
+|re-commit run --all-files
+|	time=1697865854
+|re-commit run --all-files
+|	time=1697865900
+|re-commit run --all-files
+|	time=1697866194
+|re-commit run --all-files
+|	time=1697866226
+|ls
+|	time=1697866227
+|re-commit run --all-files
+|	time=1697866250
+|ytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697866302
+|ls
+|	time=1697866303
+|re-commit run --all-files
+|	time=1697866324
+|re-commit run --all-files
+|	time=1697867651
+|eactivate.bat 
+|	time=1697867656
+|ls
+|	time=1697878584
+jupyter kernelspec list
+|	time=1697949081
+|ls
+|	time=1697949084
+F:\venvs\hamilton\Scripts\activate.bat
+|	time=1697949087
+|ls
+|	time=1697949091
+pytest -v tests\plugins\test_sklearn_plot_extensions.py
+|	time=1697949104
+|ls
+|	time=1697949106
+|re-commit run --all-files
+|	time=1697949128
+|re-commit run --all-files
+|	time=1697949150
+|ls
+|	time=1697949151
+pre-commit run --all-files
+|	time=1698053918
+|d/d F:\Learnbay\Assignments\
+|	time=1698053925
+|upyter notebook
+|	time=1698066574
+virtualenv F:\venvs\flytekit
+|	time=1698066594
+F:\venvs\flytekit\Scripts\activate.bat
+|	time=1698066648
+cd/d E:\ClonedRepos\flytekit\
+|	time=1698066714
+deactivate.bat 
+|	time=1698158344
+|d/d F:\Learnbay\Assignments\
+|	time=1698158354
+|upyter notebook
+|	time=1698202340
+pip install jupyter_contrib_nbextensions
+|	time=1698202413
+pip install jupyter-autocomplete
+|	time=1698202570
+|d/d F:\Learnbay\Assignments\
+|	time=1698202577
+|upyter notebook
+|	time=1698202732
+jupyter contrib nbextension install --user
+|	time=1698202764
+|lear
+|	time=1698202767
+|ls
+|	time=1698202769
+|upyter notebook
+|	time=1698215621
+|ls
+|	time=1698215623
+|upyter notebook
+|	time=1698217695
+npm install -g esy@latest
+|	time=1698217856
+cd/d E:\ClonedRepos\
+|	time=1698217859
+git clone https://github.com/revery-ui/revery
+|	time=1698217870
+cd revery\
+|	time=1698217874
+esy install
+|	time=1698218185
+esy build
+|	time=1698222392
+npm uninstall -g esy@latest
+|	time=1698222431
+npm uninstall -g esy
+|	time=1698222456
+|pm uninstall -g esy --force
+|	time=1698222541
+npm uninstall -g esy --force
+|	time=1698224108
+esy
+|	time=1698224111
+|lear
+|	time=1698224112
+|ls
+|	time=1698224775
+|C:\Program Files (x86)\clink\clink.bat" inject --autorun
+|	time=1698287326
+cd/d F:\Learnbay\Assignments\
+|	time=1698287330
+|upyter notebook
+|	time=1698287350
+cd/d F:\Learnbay\Assignments\
+|	time=1698287359
+|upyter notebook
+|	time=1698287433
+|d/d ..
+|	time=1698287435
+|ir
+|	time=1698287443
+cd/d "Python by Manish -22nd Sep Batch\
+|	time=1698287452
+cd/d ..
+|	time=1698287455
+|ls
+|	time=1698287459
+|upyter notebook
+|	time=1698730217
+|link update
+|	time=1698818058
+pip install pylyzer
+|	time=1698818087
+pip install --user  pylyzer
+|	time=1698818095
+|ls
+|	time=1699015542
+dir "C:\Program Files\Macrium\"
+|	time=1699015589
+"C:\Program Files\Macrium\Reflect\mrverify.exe" E:\1E97A58143500AF8-00-00.mrimg 
+|	time=1699021488
+dir "C:\Program Files\Macrium\Reflect\" 
+|	time=1699001367
+py
+|	time=1699001404
+|ls
+|	time=1700127139
+|iskpart
+|	time=1700127146
+diskpart
+|	time=1700231943
+grub-install.exe --help
+|	time=1700231955
+grub-install.exe
+|	time=1700232108
+grub-file
+|	time=1700232112
+grub-file.exe
+|	time=1700232169
+|sudo
+|	time=1700232181
+grub-install.exe
+|	time=1700290985
+|sudo
+|	time=1700291009
+|sudo
+|	time=1700291029
+grub-install.exe --force --no-floppy --target=i386-pc --boot-directory=X:\boot //./PHYSICALDRIVE3
+|	time=1700291054
+grub-install.exe --force --no-floppy --target=i386-pc --boot-directory=H:\boot //./PHYSICALDRIVE3
+|	time=1700890952
+|sbipd wsl list
+|	time=1700891007
+|sbipd wsl list
+|	time=1700890978
+|sbipd wsl list
+|	time=1700891063
+|sbipd wsl list
+|	time=1700891114
+|sbipd wsl attach --busid 4-3
+|	time=1700891139
+|sl --update
+|	time=1700891150
+|sudo wsl --update
+|	time=1700891167
+|sudo
+|	time=1700891175
+|sl --update
+|	time=1700891501
+|sl --update
+|	time=1700891576
+|sl --update
+|	time=1700891583
+wsl --update
+|	time=1700891595
+|sudo
+|	time=1700891602
+gsudo wsl --update
+|	time=1700892079
+|sl --shutdown
+|	time=1700892117
+gsudo wsl_update_x64.msi
+|	time=1700892134
+wsl
+|	time=1700892232
+|sbipd wsl list
+|	time=1700892244
+|sbipd wsl attach --busid 4-3
+|	time=1700892663
+|sbipd wsl detach --busid 4-3
+|	time=1700903203
+|link update
+|	time=1700903521
+|sbipd wsl list
+|	time=1700903530
+|lear
+|	time=1700903533
+|ls
+|	time=1700903537
+|sbipd wsl attach --busid 4-3
+|	time=1700907784
+|sbipd wsl detach --busid 4-3
+|	time=1701316763
+|sl -l -v
+|	time=1701323290
+|sl --shutdown
+|	time=1701323806
+|sbipd wsl attach --busid 4-3
+|	time=1701323891
+|sbipd wsl detach --busid 4-3
+|	time=1701323896
+|ls
+|	time=1701323919
+wsl --mount H:\ --bare
+|	time=1701323943
+wsl --mount
+|	time=1701323965
+|ls
+|	time=1701406999
+|sl --shutdown
+|	time=1701509196
+|sl --shutdown
+|	time=1701509202
+|link update
+|	time=1701509462
+|sl --shutdown
+|	time=1701510026
+wsl --shutdown
+|	time=1701510295
+usbipd wsl detach --busid 4-3
+|	time=1701510301
+usbipd wsl attach --busid 4-3
+|	time=1701510313
+|sbipd wsl list
+|	time=1701510323
+|sbipd wsl attach --busid 4-1
+|	time=1701510487
+|sbipd wsl detach --busid 4-1
+|	time=1701577674
+|sbipd wsl list
+|	time=1701577689
+|ls
+|	time=1701577692
+|sbipd wsl attach --busid 4-1
+|	time=1701578062
+|sbipd wsl detach --busid 4-1
+|	time=1701597072
+|sbipd wsl attach --busid 4-1
+|	time=1701597088
+|sbipd wsl attach --busid 4-1
+|	time=1701597092
+|ls
+|	time=1701597094
+usbipd wsl attach --busid 4-1
+|	time=1701597098
+|ls
+|	time=1701597191
+usbipd wsl --distribution=Ubuntu-20.04 attach --busid 4-1
+|	time=1701597209
+|ls
+|	time=1701597216
+usbipd wsl attach --busid 4-1 --distribution=Ubuntu-20.04
+|	time=1701597229
+|sl -l -v
+|	time=1701598095
+|ls
+|	time=1701598111
+|sbipd wsl attach --busid 4-1 --distribution=kali-linux
+|	time=1701598245
+|sbipd wsl attach --busid 4-1 --distribution=kali-linux
+|	time=1701598547
+usbipd wsl detach --busid 4-1 --distribution=kali-linux
+|	time=1701598554
+usbipd wsl detach --busid 4-1
+|	time=1701656477
+usbipd wsl attach --busid 4-1 --distribution=kali-linux
+|	time=1701656491
+|sbipd wsl list
+|	time=1701656499
+|ls
+|	time=1701656505
+|sbipd wsl attach --busid 4-3 --distribution=kali-linux
+|	time=1701656514
+|ls
+|	time=1701656519
+usbipd wsl attach --busid 4-3 --distribution=kali-linux
+|	time=1701656535
+|sudo usbipd wsl attach --busid 4-3 --distribution=kali-linux
+|	time=1701657024
+|sbipd wsl list
+|	time=1701657041
+|sudo usbipd wsl attach --busid 4-1 --distribution=kali-linux
+|	time=1701671566
+|sudo usbipd wsl detach --busid 4-1
+|	time=1701676359
+|sudo usbipd wsl attach --busid 4-1 --distribution=kali-linux
+|	time=1701677867
+|sudo usbipd wsl detach --busid 4-1
+|	time=1701678196
+|sudo usbipd wsl attach --busid 4-1 --distribution=kali-linux
+|	time=1701678202
+|sbipd wsl list
+|	time=1701678260
+|sbipd wsl list
+|	time=1701678276
+|sudo usbipd wsl attach --busid 3-1 --distribution=kali-linux
+|	time=1701678657
+|sudo usbipd wsl detach --busid 3-1
+|	time=1701678754
+|sudo usbipd wsl attach --busid 3-1 --distribution=kali-linux
+|	time=1701678988
+|sudo usbipd wsl detach --busid 3-1
+|	time=1701679988
+|sudo usbipd wsl attach --busid 3-1 --distribution=kali-linux
+|	time=1701680010
+|sudo usbipd wsl attach --busid 3-1 --distribution=kali-linux
+|	time=1701680316
+|sudo usbipd wsl detach --busid 3-1
+|	time=1701681883
+|sudo usbipd wsl attach --busid 3-1 --distribution=kali-linux
+|	time=1701682734
+|sudo usbipd wsl detach --busid 3-1
+|	time=1701682874
+|sudo usbipd wsl attach --busid 3-1 --distribution=kali-linux
+|	time=1701683109
+|sudo usbipd wsl detach --busid 3-1
+|	time=1701690939
+|sudo usbipd wsl detach --busid 4-1
+|	time=1701690984
+|sbipd wsl list
+|	time=1701690997
+|sudo usbipd wsl attach --busid 4-1 --distribution=kali-linux
+|	time=1701691007
+|sudo usbipd wsl attach --busid 4-1 --distribution=kali-linux
+|	time=1701692987
+|sudo usbipd wsl detach --busid 4-1
+|	time=1701751809
+|sbipd wsl list
+|	time=1701751823
+|sudo usbipd wsl attach --busid 3-1 --distribution=kali-linux
+|	time=1701752411
+|sudo usbipd wsl detach --busid 3-1
+|	time=1701752547
+|sudo usbipd wsl attach --busid 3-1 --distribution=kali-linux
+|	time=1701753127
+|sudo usbipd wsl detach --busid 3-1
+|	time=1701753325
+|sudo usbipd wsl attach --busid 3-1 --distribution=kali-linux
+|	time=1701753551
+|sudo usbipd wsl detach --busid 3-1
+|	time=1701755859
+|sbipd wsl list
+|	time=1701755865
+gsudo usbipd wsl attach --busid 3-1 --distribution=kali-linux
+|	time=1701757070
+|sudo usbipd wsl detach --busid 3-1
+|	time=1701792968
+|sbipd wsl list
+|	time=1701792975
+|lear
+|	time=1701792978
+|ls
+|	time=1701792987
+|sudo usbipd wsl attach --busid 4-1 --distribution=kali-linux
+|	time=1701793298
+|sudo usbipd wsl detach --busid 4-1
+|	time=1701877973
+|lear
+|	time=1701877975
+|ls
+|	time=1701877977
+|sbipd wsl list
+|	time=1701877986
+|sudo usbipd wsl attach --busid 4-1 --distribution=kali-linux
+|	time=1701878899
+|sudo usbipd wsl detach --busid 4-1
+|	time=1701878961
+|sudo usbipd wsl attach --busid 4-1 --distribution=kali-linux
+|	time=1701879800
+|sudo usbipd wsl detach --busid 4-1
+|	time=1701879875
+|sudo usbipd wsl attach --busid 4-1 --distribution=kali-linux
+|	time=1701880343
+|sudo usbipd wsl detach --busid 4-1
+|	time=1702208178
+conda info --envs
+|	time=1702207971
+conda install -c anaconda pandas-datareader
+|	time=1702208026
+F:\anaconda3\_conda.exe activate
+|	time=1702208087
+conda install -c anaconda pandas-datareader
+|	time=1702208282
+gsudo conda install -c anaconda pandas-datareader
+|	time=1702273061
+|LOCALAPPDATA%\wsltty\bin\mintty.exe --help
+|	time=1702274429
+%LOCALAPPDATA%\wsltty\bin\mintty.exe --WSL="kali-linux" --configdir="%APPDATA%\wsltty" -~  - --exec="fish"
+|	time=1702274474
+%LOCALAPPDATA%\wsltty\bin\mintty.exe --help
+|	time=1702274554
+|ls
+|	time=1702287533
+%LOCALAPPDATA%\wsltty\bin\mintty.exe --WSL="kali-linux" --exec fish
+|	time=1702287593
+|ls
+|	time=1702287598
+|sbipd wsl list
+|	time=1702287640
+|sudo usbipd wsl attach --busid 4-3 --distribution=kali-linux
+|	time=1702287651
+gsudo usbipd wsl attach --busid 4-3 --distribution=kali-linux
+|	time=1702302506
+|sudo usbipd wsl detach --busid 4-3
+|	time=1702302517
+|sl -l -v
+|	time=1702302544
+|sudo usbipd wsl attach --busid 4-3
+|	time=1702303342
+|sudo usbipd wsl detach --busid 4-3
+|	time=1702310214
+|sbipd wsl list
+|	time=1702310219
+|sudo usbipd wsl attach --busid 4-3
+|	time=1702310824
+|sudo usbipd wsl detach --busid 4-3
+|	time=1702365991
+"C:\Program Files (x86)\clink\clink.bat" inject --autorun
+|	time=1702365996
+"C:\Program Files (x86)\clink\clink.bat" 
+|	time=1702366101
+|ls
+|	time=1702389391
+|sbipd wsl list
+|	time=1702389395
+|ls
+|	time=1702389399
+|sudo usbipd wsl attach --busid 4-3
+|	time=1702389762
+|sudo usbipd wsl detach --busid 4-3
+|	time=1702389806
+|sudo usbipd wsl attach --busid 4-3
+|	time=1702389909
+|sudo usbipd wsl detach --busid 4-3
+|	time=1702389990
+|sudo usbipd wsl attach --busid 4-3
+|	time=1702399706
+|sudo usbipd wsl detach --busid 4-3
+|	time=1702399814
+|sudo usbipd wsl attach --busid 4-3
+|	time=1702400122
+|sudo usbipd wsl detach --busid 4-3
+|	time=1702560388
+pip install vimeo_downloader
+|	time=1702560406
+gsudo pip install vimeo_downloader
+|	time=1702560421
+python
+|	time=1703223230
+|link update
+|	time=1703223584
+|sbipd wsl list
+|	time=1703223593
+|sudo usbipd wsl attach --busid 4-3
+|	time=1703223615
+|sudo usbipd wsl attach --busid 4-3
+|	time=1703223628
+|sudo usbipd wsl attach --busid 4-3
+|	time=1703239903
+|sbipd wsl list
+|	time=1703239916
+|sudo usbipd wsl attach --busid 4-3
+|	time=1703240153
+|sbipd wsl list
+|	time=1703240165
+|sudo usbipd wsl attach --busid 4-3
+|	time=1703240207
+|sudo usbipd wsl detach --busid 4-3
+|	time=1703240479
+|sbipd wsl list
+|	time=1703240499
+|sudo usbipd wsl attach --busid 4-1
+|	time=1703240847
+usbipd bind --force --busid=4-1
+|	time=1703240858
+gsudo usbipd bind --force --busid=4-1
+|	time=1703240882
+|sudo usbipd wsl attach --busid 4-1
+|	time=1703242002
+|ls
+|	time=1703242005
+|sbipd wsl list
+|	time=1703242011
+|sudo usbipd wsl attach --busid 4-1
+|	time=1703242120
+|sudo usbipd wsl detach --busid 4-1
+|	time=1703242200
+|ls
+|	time=1703242258
+gsudo usbipd wsl attach --busid 4-1 --distribution=kali-linux
+|	time=1703243315
+|sudo usbipd wsl detach --busid 4-1
+|	time=1703243512
+gsudo usbipd unbind --guid
+|	time=1703243527
+|sbipd wsl list
+|	time=1703243536
+|lear
+|	time=1703243538
+|ls
+|	time=1703243547
+gsudo usbipd unbind -b 4-1
+|	time=1703262613
+|sbipd wsl list
+|	time=1703262647
+|sudo usbipd wsl attach --busid 4-1
+|	time=1703263165
+|sudo usbipd wsl detach --busid 4-1
+|	time=1703263252
+|sudo usbipd wsl attach --busid 4-1
+|	time=1703263636
+|sudo usbipd wsl detach --busid 4-1
+|	time=1703310227
+|sbipd wsl list
+|	time=1703310233
+|sudo usbipd wsl attach --busid 4-1
+|	time=1703325135
+|sudo usbipd wsl detach --busid 4-1
+|	time=1703325258
+|sudo usbipd wsl attach --busid 4-1
+|	time=1703328840
+|sudo usbipd wsl detach --busid 4-1
+|	time=1703955221
+where tar
+|	time=1705571032
+|sl -l -v
+|	time=1705748806
+|link update
+|	time=1705749640
+|link update
+|	time=1706200371
+wsl -l -v
+|	time=1706423169
+fastfetch.exe
+|	time=1706427826
+|owershell
+|	time=1706428077
+|owershell
+|	time=1706428146
+|owershell
+|	time=1706431381
+|owershell
+|	time=1706432428
+|owershell
+|	time=1706433513
+|owershell
+|	time=1706432850
+|h-my-posh init cmd --config "C:\Program Files (x86)\oh-my-posh\themes\paradox.omp.json"
+|	time=1706446034
+powershell
+|	time=1706458798
+pwsh
+|	time=1706603574
+|sbipd wsl list
+|	time=1706603608
+|sudo usbipd wsl attach --busid 3-1
+|	time=1706603629
+gsudo usbipd wsl attach --busid 3-1
+|	time=1706604112
+|sudo usbipd wsl detach --busid 3-1
+|	time=1706604831
+|sbipd wsl list
+|	time=1706604868
+|sudo usbipd wsl attach --busid 4-1
+|	time=1706605315
+|sudo usbipd wsl detach --busid 4-1
+|	time=1706622040
+|sbipd wsl list
+|	time=1706622050
+|sudo usbipd wsl attach --busid 4-1
+|	time=1706622195
+|sudo usbipd wsl detach --busid 4-1
+|	time=1706623855
+|sbipd wsl list
+|	time=1706623861
+|sudo usbipd wsl attach --busid 4-1
+|	time=1706624602
+gsudo usbipd wsl detach --busid 3-1
+|	time=1706624608
+|sudo usbipd wsl detach --busid 4-1
+|	time=1706849999
+|sbipd wsl list
+|	time=1706850031
+|sudo usbipd wsl attach --busid 4-1
+|	time=1706850091
+|sbipd wsl list
+|	time=1706850097
+|sudo usbipd wsl attach --busid 4-1
+|	time=1706850316
+|sudo usbipd wsl detach --busid 4-1
+|	time=1706858662
+|sbipd wsl list
+|	time=1706858667
+|sudo usbipd wsl attach --busid 4-1
+|	time=1706859785
+|sudo usbipd wsl detach --busid 4-1
+|	time=1706859812
+|link update
+|	time=1706859967
+gsudo usbipd wsl attach --busid 4-1
+|	time=1706861206
+gsudo usbipd wsl detach --busid 4-1
+|	time=1707026884
+takeown /f F:\Windows /r
+|	time=1707026890
+gsudo takeown /f F:\Windows /r
+|	time=1707027190
+del F:\Windows
+|	time=1707027241
+gsudo icacls F:\Windows
+|	time=1707027254
+gsudo icacls F:\Windows /reset /T
+|	time=1707027357
+gsudo del /F F:\Windows
+|	time=1707038532
+|sbipd wsl list
+|	time=1707038553
+|sudo usbipd wsl attach --busid 4-3
+|	time=1707038807
+|sudo usbipd wsl detach --busid 4-3
+|	time=1707040685
+|sbipd wsl list
+|	time=1707040690
+|sudo usbipd wsl attach --busid 4-3
+|	time=1707040833
+|sudo usbipd wsl detach --busid 4-3
+|	time=1707125489
+|sbipd wsl list
+|	time=1707125516
+|sudo usbipd wsl attach --busid 4-3
+|	time=1707125902
+|sudo usbipd wsl detach --busid 4-3
+|	time=1707126073
+gsudo usbipd wsl attach --busid 4-3
+|	time=1707126346
+gsudo usbipd wsl detach --busid 4-3
+|	time=1707132010
+usbipd wsl list
+|	time=1707132019
+gsudo usbipd wsl attach --busid 3-3
+|	time=1707132318
+gsudo usbipd wsl detach --busid 3-3
+|	time=1707142618
+|sudo
+|	time=1707142686
+.\Desktop\grub\grub-install.exe --force --no-floppy --target=i386-pc --boot-directory=X:\boot //./PHYSICALDRIVE2
+|	time=1707142738
+.\Desktop\grub\grub-install.exe --force --removable --no-floppy --target=i386-efi --boot-directory=X:\boot --efi-directory=X:\
+|	time=1707237969
+cd .\Desktop\grub
+|	time=1707237972
+|ls
+|	time=1707237995
+|rub-script-check X:\boot\grub\Diag.cfg
+|	time=1707238005
+|rub-script-check --verbose  X:\boot\grub\Diag.cfg
+|	time=1707238146
+grub-script-check --verbose  X:\boot\grub\Diag.cfg
+|	time=1707238148
+grub-script-check X:\boot\grub\Diag.cfg
+|	time=1707277642
+grub.exe --config
+|	time=1708521873
+⢘⢾⣿⣿⢷⣿⣿⣿⣿⠅⠀⠂⠁⠀⠠⠀⠂⠈⠀⠁⢀⠀⡀⠁⠠⠀⢨⣿⣿⣿⡿⣿⣿⣿⡯⡇    Disk (D:\): [ ■■■■■■■■-- ] 112.58 GiB / 146.48 GiB (77%) - NTFS\\\\\
+|	time=1708521873
+⠘⡽⣿⣿⣿⣿⣿⣿⣿⠅⠐⠀⡈⠀⠂⠀⠂⠁⠈⡀⠄⠀⠠⠐⠀⠐⢨⣿⣿⣟⣞⣷⣿⣿⡯⠃    Disk (E:\): [ ■■■■■■---- ] 181.97 GiB / 300.00 GiB (61%) - NTFS
+|	time=1708521873
+⠀⠀⠙⢺⡻⡿⡿⣿⢿⠆⠀⠂⠠⠀⠂⠐⠀⠁⠀⠄⠂⠈⠀⢀⠠⠈⢰⡿⣿⢿⣟⡯⡯⠋⠀⠀    Disk (G:\): [ ■■-------- ] 90.66 GiB / 485.03 GiB (19%) - NTFS h
+|	time=1708521873
+⠀⠀⠀⠀⠈⠙⠹⠺⠽⠃⠀⠁⠠⠐⠀⠂⠁⠀⠁⠀⠐⠀⠁⠀⠀⠄⠸⠽⠺⠓⠓⠁⠀⠀⠀⠀
+|	time=1708521874
+Loading personal and system profiles took 4726ms.
+|	time=1708521874
+The argument '%USERPROFILE%/Documents/PowerShell/PowerShellCore_wtprofile.ps1' is not recognized as the name of a script file. Check the spelling of the name, or if a path was included, verify that the path is c
+|	time=1708521874
+orrect and try again.
+|	time=1708521874
+Usage: pwsh[.exe] [-Login] [[-File] <filePath> [args]]
+|	time=1708521909
+pwsh.exe -NoLogo -noexit -noprofile -f %USERPROFILE%\Documents\PowerShell\PowerShellCore_wtprofile.ps1
+|	time=1708957834
+|sudo
+|	time=1708957841
+chkdsk c:
+|	time=1708957928
+chkdsk /f /r /x /v C:
+|	time=1709005771
+gsudo choco install winbtrfs
+|	time=1709005838
+|link update
+|	time=1709009347
+mkbtrfs --help
+|	time=1709009439
+gsudo mkbtrfs J:
+|	time=1709010729
+|D:\Unfinished Projects\Bootable USB testing\grub\grub-install.exe" --force --no-floppy --target=i386-pc --boot-directory=X:\boot //./PHYSICALDRIVE2
+|	time=1709019170
+gsudo RUNDLL32.EXE SETUPAPI.DLL,InstallHinfSection DefaultUninstall 132 btrfs.inf
+|	time=1709019176
+RUNDLL32.EXE SETUPAPI.DLL,InstallHinfSection DefaultUninstall 132 btrfs.inf
+|	time=1709019274
+RUNDLL32.EXE SETUPAPI.DLL,InstallHinfSection DefaultUninstall 132 C:\ProgramData\chocolatey\lib\winbtrfs\tools\btrfs.ini
+|	time=1709019287
+gsudo RUNDLL32.EXE SETUPAPI.DLL,InstallHinfSection DefaultUninstall 132 C:\ProgramData\chocolatey\lib\winbtrfs\tools\btrfs.ini
+|	time=1709028340
+|sudo
+|	time=1709028368
+bcdboot C:\Windows /addlast /d
+|	time=1709029527
+|cdedit /set "{current}" bootmenupolicy legacy
+|	time=1709030493
+gsudo
+|	time=1709030497
+|owercfg -h off
+|	time=1709030500
+powercfg -h off
+|	time=1709038875
+gsudo chkdsk /x /r /f H:\
+|	time=1709039618
+gsudo chkdsk /r /x /f E:\
+|	time=1709039635
+gsudo chkdsk /r /x /f E:
+|	time=1709048755
+|D:\Unfinished Projects\Bootable USB testing\grub\grub-install.exe" --force --no-floppy --target=i386-pc --boot-directory=X:\boot //./PHYSICALDRIVE2
+|	time=1709048822
+|D:\Unfinished Projects\Bootable USB testing\grub\grub-install.exe" --force --no-floppy --target=i386-pc --boot-directory=X:\boot //./PHYSICALDRIVE2
+|	time=1709049020
+|lear
+|	time=1709049022
+|ls
+|	time=1709049050
+"D:\Unfinished Projects\Bootable USB testing\grub\grub-install.exe" --force --no-floppy --target=i386-pc --boot-directory=X:\boot //./PHYSICALDRIVE2
+|	time=1709268783
+|d "F:\Learnbay\ML Project by Sauveer- 26th Feb 2024\Capstone Project\"
+|	time=1709268806
+|upyter notebook
+|	time=1709371334
+|d "F:\Learnbay\ML Project by Sauveer- 26th Feb 2024\Capstone Project\"
+|	time=1709371335
+|upyter notebook
+|	time=1709371356
+|upyter notebook
+|	time=1709371393
+|upyter notebook
+|	time=1709371462
+|d "F:\Learnbay\ML Project by Sauveer- 26th Feb 2024\Capstone Project\"
+|	time=1709371463
+|upyter notebook
+|	time=1709371588
+|d "F:\Learnbay\ML Project by Sauveer- 26th Feb 2024\Capstone Project\"
+|	time=1709371597
+|upyter notebook
+|	time=1709371617
+gsudo jupyter notebook
+|	time=1709371789
+|d "F:\Learnbay\ML Project by Sauveer- 26th Feb 2024\Capstone Project\"
+|	time=1709371804
+|upyter notebook
+|	time=1709447930
+gsudo netsh int ipv4 set dynamicport tcp start=10000 num=1000
+|	time=1709447033
+|d "F:\Learnbay\ML Project by Sauveer- 26th Feb 2024\Capstone Project\"
+|	time=1709447036
+|upyter notebook
+|	time=1709447076
+|upyter notebook
+|	time=1709447579
+jupyter notebook --ip=0.0.0.0 --port=8888
+|	time=1709447634
+clear
+|	time=1709447636
+|ls
+|	time=1709447642
+jupyter notebook --ip=0.0.0.0
+|	time=1709447814
+net stop winnat
+|	time=1709447819
+gsudo net stop winnat
+|	time=1709447832
+gsudo net start winnat
+|	time=1709447837
+|upyter notebook
+|	time=1709529374
+|d "F:\Learnbay\ML Project by Sauveer- 26th Feb 2024\Capstone Project\"
+|	time=1709529377
+|upyter notebook
+|	time=1709531127
+|upyter notebook
+|	time=1709535469
+|upyter notebook
+|	time=1709621607
+|d "F:\Learnbay\ML Project by Sauveer- 26th Feb 2024\Capstone Project\"
+|	time=1709621609
+|upyter notebook
+|	time=1709642107
+|ls
+|	time=1709642109
+|upyter notebook
+|	time=1709700303
+|d "F:\Learnbay\ML Project by Sauveer- 26th Feb 2024\Capstone Project\"
+|	time=1709700305
+jupyter notebook
+|	time=1709784592
+|cdedit /set "{current}" bootmenupolicy legacy
+|	time=1709785286
+|cdedit /set "{current}" bootmenupolicy legacy
+|	time=1709790108
+bcdedit /set "{current}" bootmenupolicy legacy
+|	time=1709971189
+|link update
+|	time=1709974496
+cd "F:\Learnbay\ML Project by Sauveer- 26th Feb 2024\Capstone Project\"
+|	time=1709974554
+|link info
+|	time=1709974599
+bat C:\Users\Praharsha\AppData\Local\conda_clink\clink_history
+|	time=1709974612
+bat "C:\Users\Praharsha\AppData\Local\conda_clink\clink_history"
+|	time=1710059437
+|u
+|	time=1710070339
+|sudo choco install nushell --version=0.84.0
+|	time=1710070372
+gsudo choco install nushell --version=0.84.0 --force
+|	time=1710069164
+choco install nushell=0.84
+|	time=1710070253
+choco install nushell --version=0.84.0
+|	time=1710070277
+|sudo choco install nushell --version=0.84.0
+|	time=1710070510
+|sudo choco install nushell --version=0.84.0
+|	time=1710070566
+|sudo choco install nushell --version=0.84.0
+|	time=1710070587
+|u --version
+|	time=1710070636
+|u --version
+|	time=1710070643
+|sudo choco install nushell --version=0.84.0
+|	time=1710070656
+|u
+|	time=1710070674
+choco --help
+|	time=1710070697
+choco uninstall nushell
+|	time=1710070714
+gsudo choco uninstall nushell
+|	time=1710072484
+gsudo choco install nushell --version=0.84.0
+|	time=1710072521
+nu --version
+|	time=1710081714
+gsudo choco upgrade nushell
+|	time=1710081764
+refreshenv.cmd
+|	time=1710136789
+nu --help
+|	time=1710136998
+|u
+|	time=1710139632
+nu C:\Users\Praharsha\AppData\Roaming\nushell\launch_conda.nu 
+|	time=1710139645
+|ls
+|	time=1710139790
+cd %appdata%\nushell
+|	time=1710139797
+nu launch_conda.nu
+|	time=1710139896
+|ls
+|	time=1710139921
+nu -e source ($nu.default-config-dir | path join 'launch_conda.nu')
+|	time=1710139958
+|u -e "source ($nu.default-config-dir | path join 'launch_conda.nu')"
+|	time=1710140792
+|u -e "source ($nu.default-config-dir | path join 'launch_conda.nu')"
+|	time=1710140959
+|u -e "source ($nu.default-config-dir | path join 'launch_conda.nu')"
+|	time=1710141022
+|u -e "source ($nu.default-config-dir | path join 'launch_conda.nu')"
+|	time=1710141950
+|u -e "source ($nu.default-config-dir | path join 'launch_conda.nu')"
+|	time=1710142850
+|u -e "source ($nu.default-config-dir | path join 'launch_conda.nu')"
+|	time=1710158145
+|u -e "source ($nu.default-config-dir | path join 'launch_conda.nu')"
+|	time=1710158324
+|u -e "source ($nu.default-config-dir | path join 'launch_conda.nu')"
+|	time=1710158253
+|u -e "source ($nu.default-config-dir | path join 'launch_conda.nu')"
+|	time=1710158485
+|u -e "source ($nu.default-config-dir | path join 'launch_conda.nu')"
+|	time=1710158524
+|u -e "source ($nu.default-config-dir | path join 'launch_conda.nu')"
+|	time=1710158811
+|u -e "source ($nu.default-config-dir | path join 'launch_conda.nu')"
+|	time=1710159011
+|u -e "source ($nu.default-config-dir | path join 'launch_conda.nu')"
+|	time=1710159125
+|u -e "source ($nu.default-config-dir | path join 'launch_conda.nu')"
+|	time=1710159065
+|u -e "source ($nu.default-config-dir | path join 'launch_conda.nu')"
+|	time=1710161180
+|u -e "source ($nu.default-config-dir | path join 'launch_conda.nu')"
+|	time=1710320526
+|u -e "source ($nu.default-config-dir | path join 'launch_conda.nu')"
+|	time=1710320705
+|h-my-posh init cmd --config "C:\Program Files (x86)\oh-my-posh\themes\paradox.omp.json"
+|	time=1710321554
+|onda activate webui
+|	time=1710321799
+|onda activate webui
+|	time=1710321992
+|onda deactivate
+|	time=1710320922
+clink info
+|	time=1710329887
+nu
+|	time=1710339522
+wslgit
+|	time=1710343086
+oh-my-posh init cmd --config "C:\Program Files (x86)\oh-my-posh\themes\paradox.omp.json"
+|	time=1710343091
+nu -e "source ($nu.default-config-dir | path join 'launch_conda.nu')"
+|	time=1710398589
+|onda activate webui
+|	time=1710398603
+conda activate
+|	time=1710398614
+|ls
+|	time=1710398646
+conda activate webui
+|	time=1710398667
+conda deactivate
+|	time=1710398673
+|ls
+|	time=1710573894
+🎍
+|	time=1711277235
+reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM /v AccentColor /t REG_DWORD /d 0d0d0d
+|	time=1711277305
+reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM /v AccentColor /t REG_DWORD /d '0d0d0d'
+|	time=1711277317
+reg add /?
+|	time=1711277438
+|eg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM /v AccentColorInactive /t REG_DWORD /d 282828
+|	time=1711278020
+reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM /v AccentColorInactive /t REG_DWORD /d 282828
+|	time=1711278062
+reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM /v AccentColorInactive /t REG_DWORD /d 0x282828
+|	time=1711426407
+clink update
+|	time=1711426458
+scoop bucket add dojang https://github.com/dahlia/dojang.git
+|	time=1711426479
+scoop install dojang
+|	time=1711428556
+cd E:\
+|	time=1711428560
+cd/d E:\
+|	time=1711428604
+mkdir dotfiles
+|	time=1711428609
+cd dotfiles
+|	time=1711428618
+dojang init --help
+|	time=1711428680
+dojang init --win64 --wsl2 --linux-x86_64
+|	time=1711428708
+dojang init --win64 --wsl2 --linux-x86_64 -I
+|	time=1711460921
+choco install micro
+|	time=1711460930
+gsudo choco install micro
+|	time=1711461036
+|icro dojang.toml
+|	time=1711461230
+|ls
+|	time=1711461314
+mkdir wt
+|	time=1711461351
+mkdir pwsh_core pwsh
+|	time=1711461355
+|ir
+|	time=1711461481
+del .\AppData
+|	time=1711461492
+del .\HOME
+|	time=1711461508
+del .\XDG_CONFIG_HOME
+|	time=1711461513
+|ir
+|	time=1711461561
+mkdir omp
+|	time=1711461564
+dir
+|	time=1711461696
+|ls
+|	time=1711461705
+mkdir .config
+|	time=1711461706
+|ls
+|	time=1711461885
+mkdir obsidian
+|	time=1711461897
+mkdir wsltty
+|	time=1711461957
+mkdir nushell
+|	time=1711467013
+cls
+|	time=1711467086
+micro dojang.toml

@@ -1,0 +1,11 @@
+# Aurelia
+[colors]
+foreground = '#EA549F'
+background = '#1a1a1a'
+
+ansi = ['#000000', '#E92888', '#4EC9B0', '#CE9178', '#579BD5', '#714896', '#00B6D6', '#EAEAEA',]
+
+brights = ['#797979', '#EB2A88', '#1AD69C', '#e9ad95', '#9CDCFE', '#975EAB', '#2BC4E2', '#EAEAEA',]
+
+[metadata]
+name = 'Aurelia'
