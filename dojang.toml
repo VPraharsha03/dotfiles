@@ -3,7 +3,7 @@
 [dirs.".config"]
 windows = "$UserProfile/.config"
 
-[dirs.".config".kitty]
+[dirs.".config.kitty"]
 linux = "$HOME/.config"
 
 [dirs.windows-terminal]
