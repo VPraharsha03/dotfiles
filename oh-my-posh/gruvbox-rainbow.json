@@ -156,8 +156,22 @@
             "threshold": 0,
             "style": "austin",
             "always_enabled": true
+          }
+        },
+        {
+          "foreground": "p:color_fg0",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}#ff0000{{ end }}"
+          ],
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "plain",
+          //"template": "",
+          //"template": " ",
+          "template": "{{ if eq .Code 0 }}<#50f265></>{{else}}<#f73a3a></>{{end}}",
+          "type": "status"
         }
-}
       ],
       "type": "prompt"
     },
@@ -192,7 +206,8 @@
             "always_enabled": true
           },
           "style": "plain",
-          "template": "",
+          //"template": "",
+          "template": " <#98971A></>",
           "type": "status"
         }
       ],

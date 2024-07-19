@@ -1,0 +1,4 @@
+set:colored-stats
+set:clink.colorize_input
+set:history.time_stamp
+key:C-x,(:start-kbd-macro

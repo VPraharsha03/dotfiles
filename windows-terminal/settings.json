@@ -31,7 +31,7 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{e58ba53f-c360-5e5c-b3c7-498d490b0751}",
+    "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
     "newTabMenu": 
     [
         {
@@ -126,8 +126,8 @@
             },
             {
                 "backgroundImage": "ms-appdata:///local/ocean_front_everforest.png",
-                "backgroundImageOpacity": 0.37,
-                "colorScheme": "Cyberdyne",
+                "backgroundImageOpacity": 0.3,
+                "colorScheme": "Monokai Soda v2",
                 "commandline": "cmd.exe \"/K\" \"C:\\Program Files (x86)\\clink\\clink.bat\" startmenu --profile ~\\clink",
                 "cursorShape": "underscore",
                 "font": 
@@ -139,7 +139,7 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt",
-                "opacity": 98,
+                "opacity": 100,
                 "startingDirectory": "%USERPROFILE%",
                 "useAcrylic": false
             },
@@ -160,10 +160,10 @@
                 "startingDirectory": "%SYSTEMDRIVE%"
             },
             {
-                "backgroundImage": "%SystemDrive%/Anaconda3/Menu/anaconda-navigator.ico",
+                "backgroundImage": "ms-appdata:///local/anaconda.jpg",
                 "backgroundImageAlignment": "center",
                 "backgroundImageOpacity": 0.5,
-                "backgroundImageStretchMode": "none",
+                "backgroundImageStretchMode": "uniformToFill",
                 "colorScheme": "Omni",
                 "commandline": "cmd.exe \"/K\" F:\\anaconda3\\Scripts\\activate.bat & set CLINK_PROFILE=%LOCALAPPDATA%\\conda_clink",
                 "cursorShape": "underscore",
@@ -177,8 +177,9 @@
                 "startingDirectory": "F:/anaconda3"
             },
             {
-                "backgroundImage": "ms-appdata:///local/KaliLinux.jpg",
-                "backgroundImageOpacity": 0.3,
+                "backgroundImage": "ms-appdata:///local/fsociety.jpg",
+                "backgroundImageOpacity": 0.4,
+                "backgroundImageStretchMode": "uniformToFill",
                 "closeOnExit": "graceful",
                 "colorScheme": "Flat Remix",
                 "cursorColor": "#FFFFFF",
@@ -464,6 +465,29 @@
             "yellow": "#D2A700"
         },
         {
+            "background": "#0B0924",
+            "black": "#080808",
+            "blue": "#000000",
+            "brightBlack": "#ADADAD",
+            "brightBlue": "#C2E3FF",
+            "brightCyan": "#E6E7FE",
+            "brightGreen": "#D6FCBA",
+            "brightPurple": "#FFB2FE",
+            "brightRed": "#FFC4BE",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFED5",
+            "cursorColor": "#00FF9C",
+            "cyan": "#6BFFDD",
+            "foreground": "#00FF92",
+            "green": "#00C172",
+            "name": "Cyberdyne Modified",
+            "purple": "#FF90FE",
+            "red": "#FF8373",
+            "selectionBackground": "#454D96",
+            "white": "#F1F1F1",
+            "yellow": "#D2A700"
+        },
+        {
             "background": "#1E1F29",
             "black": "#000000",
             "blue": "#BD93F9",
@@ -618,6 +642,29 @@
             "foreground": "#C4C5B5",
             "green": "#98E024",
             "name": "Monokai Soda",
+            "purple": "#F4005F",
+            "red": "#F4005F",
+            "selectionBackground": "#343434",
+            "white": "#C4C5B5",
+            "yellow": "#FA8419"
+        },
+        {
+            "background": "#1A1A1A",
+            "black": "#1A1A1A",
+            "blue": "#9D65FF",
+            "brightBlack": "#736E59",
+            "brightBlue": "#9D65FF",
+            "brightCyan": "#58D1EB",
+            "brightGreen": "#98E024",
+            "brightPurple": "#F4005F",
+            "brightRed": "#F4005F",
+            "brightWhite": "#F6F6EF",
+            "brightYellow": "#E0D561",
+            "cursorColor": "#F6F7EC",
+            "cyan": "#58D1EB",
+            "foreground": "#C4C5B5",
+            "green": "#98E024",
+            "name": "Monokai Soda v2",
             "purple": "#F4005F",
             "red": "#F4005F",
             "selectionBackground": "#343434",
@@ -807,6 +854,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
+        },
+        {
+            "background": "#201F1E",
+            "black": "#333333",
+            "blue": "#518BFC",
+            "brightBlack": "#777777",
+            "brightBlue": "#B3E8F3",
+            "brightCyan": "#BCFFC7",
+            "brightGreen": "#E3F6AA",
+            "brightPurple": "#CBBAF9",
+            "brightRed": "#FFB9B9",
+            "brightWhite": "#EFEFEF",
+            "brightYellow": "#FFDDAA",
+            "cursorColor": "#7A1C1C",
+            "cyan": "#63FAD5",
+            "foreground": "#EEE4D9",
+            "green": "#12C258",
+            "name": "arcoiris",
+            "purple": "#E37BD9",
+            "red": "#DA2700",
+            "selectionBackground": "#25524A",
+            "white": "#BAB2B2",
+            "yellow": "#FFC656"
         },
         {
             "background": "#1F1F1F",

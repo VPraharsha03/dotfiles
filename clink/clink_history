@@ -197,7 +197,7 @@ git.exe
 |	time=1673244136
 wslgit.exe
 |	time=1673244148
-git
+|it
 |	time=1673244313
 RefreshEnv.cmd
 |	time=1673244423
@@ -279,7 +279,7 @@ echo %CLINK_PROFILE%
 |	time=1674304379
 cd G:\
 |	time=1674304384
-cd/d G:\
+|d/d G:\
 |	time=1674304397
 for %%f in (*.mpg) do ffmpeg -i "%%f" -s 720x576 -progress pipe:1 -movflags faststart -profile:v high -level 4.2 "%%~nf-converted.mp4"
 |	time=1679240162
@@ -427,7 +427,7 @@ wg
 |	time=1682150055
 gsudo wg
 |	time=1682152941
-ipconfig
+|pconfig
 |	time=1682153705
 gsudo nano C:\Windows\System32\WindowsPowerShell\v1.0\Modules\wireguard\wireguard.psm1
 |	time=1682153837
@@ -463,7 +463,7 @@ gsudo powershell
 |	time=1682229682
 gsudo wireguard.exe /uninstalltunnelservice "wg_serv"
 |	time=1693721937
-refreshenv
+|efreshenv
 |	time=1693723115
 reg /?
 |	time=1693723120
@@ -925,7 +925,7 @@ bat C:\Users\Praharsha\.inputrc
 |	time=1697083234
 bat C:\Users\Praharsha\AppData\Local\clink\.inputrc
 |	time=1697083302
-bat "C:\Program Files (x86)\clink\default_inputrc"
+|at "C:\Program Files (x86)\clink\default_inputrc"
 |	time=1697258900
 conda activate DS
 |	time=1697258907
@@ -1125,7 +1125,7 @@ cd/d .circleci
 |	time=1697699262
 |ircleci config validate
 |	time=1697699290
-ls
+|s
 |	time=1697699291
 |ir
 |	time=1697699301
@@ -1595,7 +1595,7 @@ wsl --mount
 |	time=1701509462
 |sl --shutdown
 |	time=1701510026
-wsl --shutdown
+|sl --shutdown
 |	time=1701510295
 usbipd wsl detach --busid 4-3
 |	time=1701510301
@@ -1909,7 +1909,7 @@ where tar
 |	time=1705749640
 |link update
 |	time=1706200371
-wsl -l -v
+|sl -l -v
 |	time=1706423169
 fastfetch.exe
 |	time=1706427826
@@ -1927,9 +1927,9 @@ fastfetch.exe
 |	time=1706432850
 |h-my-posh init cmd --config "C:\Program Files (x86)\oh-my-posh\themes\paradox.omp.json"
 |	time=1706446034
-powershell
+|owershell
 |	time=1706458798
-pwsh
+|wsh
 |	time=1706603574
 |sbipd wsl list
 |	time=1706603608
@@ -2233,7 +2233,7 @@ nu --version
 |	time=1710081714
 gsudo choco upgrade nushell
 |	time=1710081764
-refreshenv.cmd
+|efreshenv.cmd
 |	time=1710136789
 nu --help
 |	time=1710136998
@@ -2293,9 +2293,9 @@ nu -e source ($nu.default-config-dir | path join 'launch_conda.nu')
 |	time=1710321992
 |onda deactivate
 |	time=1710320922
-clink info
+|link info
 |	time=1710329887
-nu
+|u
 |	time=1710339522
 wslgit
 |	time=1710343086
@@ -2329,15 +2329,15 @@ reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM /v AccentColorInactive 
 |	time=1711278062
 reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM /v AccentColorInactive /t REG_DWORD /d 0x282828
 |	time=1711426407
-clink update
+|link update
 |	time=1711426458
 scoop bucket add dojang https://github.com/dahlia/dojang.git
 |	time=1711426479
 scoop install dojang
 |	time=1711428556
-cd E:\
+|d E:\
 |	time=1711428560
-cd/d E:\
+|d/d E:\
 |	time=1711428604
 mkdir dotfiles
 |	time=1711428609
@@ -2373,7 +2373,7 @@ del .\XDG_CONFIG_HOME
 |	time=1711461561
 mkdir omp
 |	time=1711461564
-dir
+|ir
 |	time=1711461696
 |ls
 |	time=1711461705
@@ -2387,6 +2387,690 @@ mkdir wsltty
 |	time=1711461957
 mkdir nushell
 |	time=1711467013
-cls
+|ls
 |	time=1711467086
+|icro dojang.toml
+|	time=1712654448
+|d/d E:\dotfiles
+|	time=1712654456
+|ojang --help
+|	time=1712654485
+dojang --dry-run
+|	time=1712654557
+dojang -r  --dry-run
+|	time=1712654574
+|ojang -r . --dry-run
+|	time=1712654598
+dojang -r . --dry-run
+|	time=1712654608
+dojang -r .\ --dry-run
+|	time=1712654762
+|ojang apply --dry-run
+|	time=1712654783
 micro dojang.toml
+|	time=1712654834
+dojang apply --dry-run
+|	time=1712655265
+cd/d ..\df_test\
+|	time=1712655326
+micro dojang.toml 
+|	time=1713010481
+ipconfig
+|	time=1713011535
+cd/d G:\
+|	time=1713011612
+portal
+|	time=1713011615
+refreshenv.cmd
+|	time=1713011644
+portal receive 6-helium-ray-system
+|	time=1713191284
+. .\Executables\bluelightmanagement.ps1
+|	time=1713191296
+pwsh
+|	time=1713196134
+|owershell Set-BlueLightReductionSettings -StartHour 0 -StartMinutes 0 -EndHour 23 -EndMinutes 59 -Enabled $true -NightColorTemperature 3000
+|	time=1713196197
+|owershell . bluelightmanagement.ps1
+|	time=1713196215
+|owershell . .\bluelightmanagement.ps1
+|	time=1713196236
+|d Executables
+|	time=1713196248
+Powershell . bluelightmanagement.ps1
+|	time=1713196268
+Powershell . .\bluelightmanagement.ps1
+|	time=1713196402
+Powershell Set-BlueLightReductionSettings -StartHour 0 -StartMinutes 0 -EndHour 23 -EndMinutes 59 -Enabled $true -NightColorTemperature 3000
+|	time=1713196460
+Powershell . .\bluelightmanagement.ps1 && Set-BlueLightReductionSettings -StartHour 0 -StartMinutes 0 -EndHour 23 -EndMinutes 59 -Enabled $true -NightColorTemperature 3000
+|	time=1713196549
+Powershell . .\bluelightmanagement.ps1 | Set-BlueLightReductionSettings -StartHour 0 -StartMinutes 0 -EndHour 23 -EndMinutes 59 -Enabled $true -NightColorTemperature 3000
+|	time=1713196770
+Powershell -command  ". .\bluelightmanagement.ps1 | Set-BlueLightReductionSettings -StartHour 0 -StartMinutes 0 -EndHour 23 -EndMinutes 59 -Enabled $true -NightColorTemperature 3000"
+|	time=1713196822
+Powershell -command  ". & .\bluelightmanagement.ps1 | Set-BlueLightReductionSettings -StartHour 0 -StartMinutes 0 -EndHour 23 -EndMinutes 59 -Enabled $true -NightColorTemperature 3000"
+|	time=1713196907
+Powershell -command  "& .\bluelightmanagement.ps1 | Set-BlueLightReductionSettings -StartHour 0 -StartMinutes 0 -EndHour 23 -EndMinutes 59 -Enabled $true -NightColorTemperature 3000"
+|	time=1713197147
+|owershell -command  "& '.\bluelightmanagement.ps1' | Set-BlueLightReductionSettings -StartHour 0 -StartMinutes 0 -EndHour 23 -EndMinutes 59 -Enabled $true -NightColorTemperature 3000"
+|	time=1713197371
+|s
+|	time=1713197373
+|ir
+|	time=1713197405
+Powershell -command  "& '.\bluelightmanagement.ps1' | Set-BlueLightReductionSettings -StartHour 0 -StartMinutes 0 -EndHour 23 -EndMinutes 59 -Enabled $true -NightColorTemperature 3000"
+|	time=1713197433
+|owershell -command  "& '.\bluelightmanagement.ps1'"
+|	time=1713197577
+Powershell -command  "& '.\bluelightmanagement.ps1' && Set-BlueLightReductionSettings -StartHour 0 -StartMinutes 0 -EndHour 23 -EndMinutes 59 -Enabled $true -NightColorTemperature 3000"
+|	time=1713197847
+Powershell -command  "& '.\bluelightmanagement.ps1' ; Set-BlueLightReductionSettings -StartHour 0 -StartMinutes 0 -EndHour 23 -EndMinutes 59 -Enabled $true -NightColorTemperature 3000"
+|	time=1713197921
+|owershell -command  "& '.\bluelightmanagement.ps1' -and 'Set-BlueLightReductionSettings -StartHour 0 -StartMinutes 0 -EndHour 23 -EndMinutes 59 -Enabled $true -NightColorTemperature 3000'"
+|	time=1713197975
+|owershell -command  "& '.\bluelightmanagement.ps1' -and 'Set-BlueLightReductionSettings -StartHour 0 -StartMinutes 0 -EndHour 23 -EndMinutes 59 -Enabled $true -NightColorTemperature 3000'"
+|	time=1713198010
+Powershell -command  "& '.\bluelightmanagement.ps1'"
+|	time=1713198026
+powershell
+|	time=1713198303
+Powershell -command  "& '.\bluelightmanagement.ps1' -and 'Set-BlueLightReductionSettings -StartHour 0 -StartMinutes 0 -EndHour 23 -EndMinutes 59 -Enabled $true -NightColorTemperature 3000'"
+|	time=1713198375
+Powershell -command  "& . '.\bluelightmanagement.ps1' -and 'Set-BlueLightReductionSettings -StartHour 0 -StartMinutes 0 -EndHour 23 -EndMinutes 59 -Enabled $true -NightColorTemperature 3000'"
+|	time=1713198396
+Powershell -command  ". '.\bluelightmanagement.ps1' -and 'Set-BlueLightReductionSettings -StartHour 0 -StartMinutes 0 -EndHour 23 -EndMinutes 59 -Enabled $true -NightColorTemperature 3000'"
+|	time=1713198420
+Powershell -command  "'. .\bluelightmanagement.ps1' -and 'Set-BlueLightReductionSettings -StartHour 0 -StartMinutes 0 -EndHour 23 -EndMinutes 59 -Enabled $true -NightColorTemperature 3000'"
+|	time=1713250079
+cd Executable
+|	time=1713250080
+cd Executables
+|	time=1713250084
+|ls
+|	time=1713250140
+Powershell -command  ". .\bluelightmanagement.ps1; if ($?) {Set-BlueLightReductionSettings -StartHour 0 -StartMinutes 0 -EndHour 23 -EndMinutes 59 -Enabled $true -NightColorTemperature 3000}"
+|	time=1713265460
+|undll32.exe advpack.dll,LaunchINFSection
+|	time=1713265464
+rundll32.exe advpack.dll,LaunchINFSectionEx
+|	time=1713265470
+rundll32.exe advpack.dll,LaunchINFSection
+|	time=1713268004
+rundll32.exe advpack.dll,LaunchINFSection ".\Rectify 11 bLaCk\dummy.inf",,1
+|	time=1713767516
+innoextract.exe
+|	time=1713767522
+innoextract.exe RevisionTool-Setup.exe
+|	time=1713790439
+|link update
+|	time=1714312824
+portal receive 14-iron-dynamic-inertia
+|	time=1714637231
+|rub-install.exe --force --no-floppy --target=i386-pc --boot-directory=X:\boot //./PHYSICALDRIVE2
+|	time=1714637276
+grub-install.exe --force --removable --no-floppy --target=i386-efi --boot-directory=X:\boot --efi-directory=X:\
+|	time=1714637317
+grub-install.exe --force --removable --no-floppy --target=x86_64-efi --boot-directory=X:\boot --efi-directory=X:\
+|	time=1714799761
+|rub-install.exe --force --removable --no-floppy --target=i386-efi --boot-directory=X:\boot --efi-directory=X:\ --modules="tpm" --disable-shim-lock
+|	time=1714799819
+grub-install.exe --force --removable --no-floppy --target=x86_64-efi --boot-directory=X:\boot --efi-directory=X:\ --modules="tpm" --disable-shim-lock
+|	time=1714799838
+grub-install --help
+|	time=1714799852
+grub-install
+|	time=1714801905
+grub-install /?
+|	time=1714802645
+|sudo grub-install.exe --force --removable --no-floppy --target=x86_64-efi --boot-directory=X:\boot --efi-directory=X:\ --modules="tpm" --disable-shim-lock
+|	time=1714802667
+gsudo grub-install --usage
+|	time=1714809028
+gsudo grub-install --usage
+|	time=1714813289
+|sudo grub-install.exe --force --removable --no-floppy --target=x86_64-efi --boot-directory=X:\boot --efi-directory=X:\ --modules="tpm" --disable-shim-lock
+|	time=1714813349
+|rub-install.exe --force --removable --no-floppy --target=i386-efi --boot-directory=X:\boot --efi-directory=X:\ --modules="tpm" --disable-shim-lock
+|	time=1714892276
+cd E:\
+|	time=1714892280
+cd/d E:\
+|	time=1714892283
+|ls
+|	time=1714892313
+git clone C:\Users\Praharsha\Downloads\ZeroNet-win-dist-win64\ZeroNet-win-dist-win64\data/1KVD7PxZVke1iq4DKb4LNwuiHS4UzEAdAv/silent-uefiinsecureboot-disk.git
+|	time=1714892329
+cd/d .\silent-uefiinsecureboot-disk\
+|	time=1714893613
+|rub-install.exe --force --no-floppy --target=i386-pc --boot-directory=X:\boot //./PHYSICALDRIVE2
+|	time=1714918430
+gsudo grub-install.exe --force --removable --no-floppy --target=x86_64-efi --boot-directory=X:\boot --efi-directory=X:\ --modules="tpm" --disable-shim-lock
+|	time=1714918456
+grub-install.exe --force --removable --no-floppy --target=i386-efi --boot-directory=X:\boot --efi-directory=X:\ --modules="tpm" --disable-shim-lock
+|	time=1714918497
+grub-install.exe --force --no-floppy --target=i386-pc --boot-directory=X:\boot //./PHYSICALDRIVE2
+|	time=1716290392
+|link update
+|	time=1716290442
+uv pip install clickgen
+|	time=1716290483
+|d/d E:\ClonedRepos\BreezeX_Cursor\
+|	time=1716290494
+uv pip install clickgen
+|	time=1716290502
+gsudo uv pip install clickgen
+|	time=1716290535
+|ip install clickgen
+|	time=1716290552
+python.exe -m pip install --upgrade pip
+|	time=1716290569
+gsudo python.exe -m pip install --upgrade pip
+|	time=1716290600
+cd/d E:\ClonedRepos\BreezeX_Cursor\
+|	time=1716290608
+|ls
+|	time=1716291084
+ctgen build.toml -s 32 -p x11 -d 'bitmaps/BreezeX-Black' -n 'Rectify11-Black' -c 'Black Rectify11 cursors with size 32'
+|	time=1716291144
+C:\Python311\Lib\site-packages\clickgen\scripts\ctgen.py build.toml -s 32 -p x11 -d 'bitmaps/BreezeX-Black' -n 'Rectify11-Black' -c 'Black Rectify11 cursors with size 32'
+|	time=1716291214
+cd/d E:\ClonedRepos\BreezeX_Cursor\
+|	time=1716291230
+pip install clickgen
+|	time=1716291242
+gsudo pip install clickgen
+|	time=1716291280
+ctgen build.toml -s 32 -p x11 -d 'bitmaps/BreezeX-Black' -n 'Rectify11-Black' -c 'Black
+|	time=1716291330
+ctgen build.toml -s 32 -p x11 -d 'bitmaps/BreezeX-Black' -n 'Rectify11-Black' -c 'Black Rectify11 cursors with size 32'
+|	time=1716291364
+ctgen build.toml -s 32 -p x11 -d 'bitmaps/BreezeX-Black' -n 'Rectify11-Black' -c 'Rectify11'
+|	time=1717755397
+|coop install extras/vesktop
+|	time=1717755451
+scoop bucket add extras
+|	time=1717755482
+scoop install extras/vesktop
+|	time=1717774653
+|efreshenv
+|	time=1717774662
+|cho %WSLGIT_USE_INTERACTIVE_SHELL%
+|	time=1717774678
+git
+|	time=1717839453
+wsl -l -v
+|	time=1717839483
+wsl --help
+|	time=1718015398
+|sl --list --verbose
+|	time=1718017331
+|sl --list --verbose
+|	time=1718017340
+|sl --terminate Ubuntu-20.04
+|	time=1718017345
+wsl --terminate Ubuntu-20.04
+|	time=1718017349
+wsl --list --verbose
+|	time=1718027565
+git clone https://github.com/genosse-einhorn/ico2dll.git
+|	time=1718027572
+cd ico2dll\
+|	time=1718027581
+|co2dll.py 
+|	time=1718027614
+ico2dll.py 
+|	time=1718027622
+ico2dll.py -h
+|	time=1718027699
+ico2dll.py -o nord_dock.dll "C:\Users\Praharsha\Desktop\Nord Dock UPDATE 6 - 422\Windows\*.ico 
+|	time=1718027756
+ico2dll.py -o nord_dock.dll "C:\Users\Praharsha\Desktop\Nord Dock UPDATE 6 - 422\Windows\*.ico"
+|	time=1718027852
+ico2dll.py -o nord_dock.dll "C:\Users\Praharsha\Desktop\Nord Dock UPDATE 6 - 422\Windows\Accessories.ico"
+|	time=1718027870
+|ir
+|	time=1718028078
+ico2dll.py -o nord_dock.dll "C:\Users\Praharsha\Desktop\Nord Dock UPDATE 6 - 422\Windows\Accessories.ico" "C:\Users\Praharsha\Desktop\Nord Dock UPDATE 6 - 422\Windows\Pacman.ico"
+|	time=1718028325
+cd "C:\Users\Praharsha\Desktop\Nord Dock UPDATE 6 - 422\Windows\"
+|	time=1718028351
+dir > C:\Users\Praharsha\ico2dll\files.txt
+|	time=1718028360
+|at C:\Users\Praharsha\ico2dll\files.txt
+|	time=1718028366
+|at C:\Users\Praharsha\ico2dll\files.txt
+|	time=1718028404
+dir /b
+|	time=1718028415
+dir /b > C:\Users\Praharsha\ico2dll\files.txt
+|	time=1718028417
+bat C:\Users\Praharsha\ico2dll\files.txt
+|	time=1718028456
+~/ico2dll/ico2dll.py -o nord_dock.dll files.txt
+|	time=1718028545
+C:\Users\Praharsha\ico2dll\ico2dll.py -o nord_dock.dll < files.txt
+|	time=1718028582
+C:\Users\Praharsha\ico2dll\ico2dll.py -o nord_dock.dll < C:\Users\Praharsha\ico2dll\files.txt
+|	time=1718030301
+C:\Users\Praharsha\ico2dll\ico2dll.py -o nord_dock.dll "Accessories.ico" "Adobe Illustrator.ico" "Adobe Photoshop.ico" "Adobe Premiere Pro.ico" "Adobe.ico" "alarm.ico" "App List.ico" "Apple.ico" "atunes.ico" "audacity.ico" "bitwarden.ico" "blender_1.ico" "Book.ico" "brave.ico" "CD.ico" "Chrome.ico" "chromium-browser.ico" "Clock 2.ico" "Clock.ico" "color-picker.ico" "Colors.ico" "computer.ico" "computerjanitor.ico" "deepin-draw.ico" "deepin-movie.ico" "Desktop.ico" "Development.ico" "deviantart.ico" "discord.ico" "distributor-logo-archlinux.ico" "distributor-logo-windows.ico" "dockbar.ico" "dockstation.ico" "Downloads 2.ico" "Downloads.ico" "drive-harddisk.ico" "dropbox.ico" "electrip.ico" "fbmessenger.ico" "Ffile-manager.ico" "firefox.ico" "Folder - 3D.ico" "Folder - Contacts.ico" "Folder - Documents.ico" "Folder - Downloads.ico" "Folder - Favorites.ico" "Folder - Games.ico" "Folder - Generic.ico" "Folder - Links.ico" "Folder - Music.ico" "Folder - Onedrive.ico" "Folder - Pictures.ico" "Folder - Projects.ico" "Folder - Searches.ico" "Folder - User.ico" "Folder - Videos.ico" "Foobar2000.ico" "Ghost.ico" "gimp.ico" "github.ico" "gitkraken.ico" "gitlab.ico" "Globe 2.ico" "Globe.ico" "gtranscribe.ico" "Heart.ico" "Help.ico" "inkscape.ico" "itunes.ico" "jewel.ico" "Library.ico" "mac dark.ico" "mac light.ico" "Mail.ico" "Media Player.ico" "microsoft teams.ico" "microsoft.ico" "Microsoft_Edge.ico" "movie.ico" "Movies.ico" "ms-excel.ico" "ms-onedrive.ico" "ms-powerpoint.ico" "ms-word.ico" "Music v2.ico" "music-player.ico" "Music.ico" "netflix.ico" "nextcloud.ico" "Office.ico" "opera.ico" "Pacman.ico" "Paint palette.ico" "Paint.ico" "Photo.ico" "Photos.ico" "Pictures.ico" "PotPlayer.ico" "PotPlayerOrange.ico" "powershell.ico" "powersploit.ico" "preferences-desktop-color.ico" "preferences-desktop-gaming.ico" "preferences.ico" "Private.ico" "qbittorrent.ico" "reddit.ico" "Settings.ico" "shutdown v2.ico" "shutdown.ico" "slack.ico" "spotify alt.ico" "Spotify.ico" "steam.ico" "system-users.ico" "telegram.ico" "Terminal.ico" "tweak-tool.ico" "user-trash-full.ico" "user-trash.ico" "User.ico" "utilities-terminal.ico" "uTorrent.ico" "Videos.ico" "virtualbox (2).ico" "virtualbox.ico" "visual-studio-code.ico" "vivaldi.ico" "vlc.ico" "vmware-workstation.ico" "WebCam.ico" "windows.ico" "words.ico" "yandex-browser.ico" "yast.ico" "youtube-dl.ico" "youtube.ico"
+|	time=1718170070
+|sl --shutdown
+|	time=1718172018
+|sl --shutdown
+|	time=1718172162
+|sl --shutdown
+|	time=1718174453
+|link update
+|	time=1718369245
+|u
+|	time=1718441585
+|efreshenv
+|	time=1718441615
+eza -l --icons
+|	time=1718441705
+eza -TL 2
+|	time=1718441899
+nu
+|	time=1718529591
+curl "https://gentoo.osuosl.org/releases/amd64/autobuilds/current-stage3-amd64-nomultilib-openrc/latest-stage3-amd64-nomultilib-openrc.txt"
+|	time=1718710202
+ssl --shutdown
+|	time=1718710205
+|ls
+|	time=1718710209
+|sl --shutdown
+|	time=1718715001
+|sl --shutdown
+|	time=1718716508
+wsl --shutdown
+|	time=1718777352
+wsl.exe --update
+|	time=1719912121
+|link update
+|	time=1720000453
+|s
+|	time=1720000572
+lstree
+|	time=1720094357
+|link info
+|	time=1720094407
+git clone https://github.com/chrisant996/clink-fzf.git C:\Users\Praharsha\AppData\Local\clink
+|	time=1720094617
+where fzf
+|	time=1720094841
+git clone https://github.com/chrisant996/clink-fzf.git %USERPROFILE%\.clink
+|	time=1720094871
+clink installscripts %USERPROFILE%\.clink
+|	time=1720094957
+clink set fzf.default_bindings true
+|	time=1720101598
+clink set tips.enable false
+|	time=1720107115
+git clone https://github.com/vladimir-kotikov/clink-completions.git
+|	time=1720107596
+fastfetch
+|	time=1720152066
+|it clone https://github.com/chrisant996/clink-gizmos.git ~/.clink
+|	time=1720152148
+|link set matchicons.enable true
+|	time=1720157459
+|efreshenv
+|	time=1720157491
+dirx
+|	time=1720157550
+dirx.exe /b /s /X:d /a:-s-h --bare-relative --icons=always --utf8 $dir
+|	time=1720157598
+dirx.exe --compact -Qv -whjv -Z -a- -f "F19 S D T? G?" $*
+|	time=1720157603
+|ir
+|	time=1720157653
+|et FZF_CTRL_T_COMMAND=dirx.exe /b /s /X:d /a:-s-h --bare-relative --icons=always --utf8 $dir
+|	time=1720157665
+set FZF_ALT_C_COMMAND=dirx.exe /b /s /X:d /a:d-s-h --bare-relative --icons=always --utf8 $dir
+|	time=1720157674
+|et FZF_ICON_WIDTH=2
+|	time=1720157824
+dirx.exe --compact -Qv -whjv -Z -a- -f "F19 S D T? G?" $* -k
+|	time=1720157842
+|irx.exe --compact -Qv -whjv -Z -a- -f "F19 S D T? G?" $* -k .\
+|	time=1720157851
+|irx.exe --compact -Qv -whjv -Z -a- -f "F19 S D T? G?" $* .\
+|	time=1720157922
+|et DIRXCMD=--icons
+|	time=1720157924
+dirx.exe --compact -Qv -whjv -Z -a- -f "F19 S D T? G?" $* .\
+|	time=1720157934
+dirx.exe --compact -Qv -whjv -Z -a- -f "F19 S D T? G?" $* -k .\
+|	time=1720158067
+|et FZF_ALT_C_OPTS=--preview-window "right:40%,border-left" --bind "ctrl-/:change-preview-window(right:70%|hidden|)" --preview "dirx -b -s --bare-relative --utf8 --level=3 --tree --icons=always {2..}"
+|	time=1720158693
+set FZF_ALT_C_OPTS=--preview-window "right:40%,border-left" --bind "ctrl-/:change-preview-window(right:70%|hidden|)" --preview "dirx -b -s --bare-relative --utf8 --level=3 --tree --icons=always {2..}"
+|	time=1720162977
+clink set --help
+|	time=1720163042
+clink set color.cmd --describe
+|	time=1720163065
+clink set -d color.cmd
+|	time=1720163770
+clink set -d color.executable
+|	time=1720163966
+clink set color.executable sgr 1;38;5;231
+|	time=1720164004
+clink set color.executable sgr 1;38;5;45
+|	time=1720164046
+clink set -d color.suggestion
+|	time=1720164094
+clink set color.suggestion sgr 38;5;243
+|	time=1720167253
+clink set color.suggestion sgr 38;5;250
+|	time=1720170479
+clink set color.suggestion sgr 38;5;248
+|	time=1720170548
+clink set color.suggestion sgr 38;5;247
+|	time=1720170617
+clink set color.suggestion sgr 38;5;246
+|	time=1720170882
+clink set color.suggestion sgr 38;5;245
+|	time=1720175639
+|icro C:\Users\Praharsha\AppData\Local\clink\oh-my-posh.lua
+|	time=1720175795
+fastfetch --logo %USERPROFILE%\.config\fastfetch\ascii.txt
+|	time=1720175809
+|icro C:\Users\Praharsha\AppData\Local\clink\oh-my-posh.lua
+|	time=1720182663
+|icro C:\Users\Praharsha\AppData\Local\clink\aliases
+|	time=1720182731
+|icro C:\Users\Praharsha\AppData\Local\clink\aliases
+|	time=1720182803
+|icro C:\Users\Praharsha\AppData\Local\clink\oh-my-posh.lua
+|	time=1720182895
+|icro C:\Users\Praharsha\AppData\Local\clink\aliases
+|	time=1720182991
+|icro C:\Users\Praharsha\AppData\Local\clink\oh-my-posh.lua
+|	time=1720183090
+|icro C:\Users\Praharsha\AppData\Local\clink\oh-my-posh.lua
+|	time=1720183195
+|icro C:\Users\Praharsha\AppData\Local\clink\aliases
+|	time=1720183221
+|icro C:\Users\Praharsha\AppData\Local\clink\aliases
+|	time=1720183254
+|ir
+|	time=1720184075
+|icro C:\Users\Praharsha\AppData\Local\clink\aliases
+|	time=1720184095
+mi
+|	time=1720184219
+set FZF_CTRL_T_COMMAND=dirx.exe /b /s /X:d /a:-s-h --bare-relative --icons=always --utf8 $dir
+|	time=1720184240
+set FZF_ICON_WIDTH=2
+|	time=1720184248
+set DIRXCMD=--icons
+|	time=1720184259
+|ir
+|	time=1720191345
+|icro C:\Users\Praharsha\AppData\Local\clink\env.bat
+|	time=1720191384
+|icro C:\Users\Praharsha\AppData\Local\clink\oh-my-posh.lua
+|	time=1720191496
+|ir
+|	time=1720191821
+|it clone https://github.com/chrisant996/clink-gizmos.git ~/.clink
+|	time=1720191849
+rmdir ~/.clink
+|	time=1720191873
+rmdir C:\Users\Praharsha\.clink
+|	time=1720191878
+|it clone https://github.com/chrisant996/clink-gizmos.git ~/.clink
+|	time=1720191899
+git clone https://github.com/chrisant996/clink-gizmos.git ~/.clink
+|	time=1720191929
+git clone https://github.com/chrisant996/clink-gizmos.git C:\Users\Praharsha\.clink
+|	time=1720193492
+clink set matchicons.enable true
+|	time=1720261832
+dojang --help
+|	time=1720261912
+dojang -r E:\ClonedRepos\dotfiles status
+|	time=1720262035
+dojang -r E:\dotfiles status
+|	time=1720262120
+dojang -r E:\dotfiles diff
+|	time=1720262383
+|icro C:\Users\Praharsha\AppData\Local\clink\oh-my-posh.lua
+|	time=1720262673
+|icro C:\Users\Praharsha\AppData\Local\clink\env.bat
+|	time=1720262690
+|:\Users\Praharsha\AppData\Local\clink\env.bat
+|	time=1720262834
+dojang -r E:\dotfiles reflect
+|	time=1720262869
+dojang reflect E:\dotfiles
+|	time=1720262921
+cd E:\dotfiles
+|	time=1720262930
+cd/d E:\dotfiles
+|	time=1720262947
+dojang reflect
+|	time=1720263181
+dir
+|	time=1720263191
+dir clink
+|	time=1720263204
+dojang reflect clink\oh-my-posh.lua 
+|	time=1720263415
+micro C:\Users\Praharsha\AppData\Local\clink\env.bat
+|	time=1720263469
+C:\Users\Praharsha\AppData\Local\clink\env.bat
+|	time=1720263478
+refreshenv
+|	time=1720331738
+|icro C:\Users\Praharsha\AppData\Local\clink\aliases
+|	time=1720331768
+|icro C:\Users\Praharsha\AppData\Local\clink\aliases
+|	time=1720332488
+|link info
+|	time=1720332543
+|i C:\Users\Praharsha\AppData\Local\clink\.inputrc
+|	time=1720332555
+|ls
+|	time=1720332583
+|link info
+|	time=1720332697
+bat C:\Program Files (x86)\clink\default_inputrc
+|	time=1720332709
+|at "C:\Program Files (x86)\clink\default_inputrc"
+|	time=1720332923
+|ls
+|	time=1720332927
+|i C:\Users\Praharsha\AppData\Local\clink\.inputrc
+|	time=1720333023
+|link info
+|	time=1720333096
+|cho %clink_inputrc%
+|	time=1720333110
+echo %WSLGIT_USE_INTERACTIVE_SHELL%
+|	time=1720333144
+set clink_inputrc=%USERPROFILE%\.clink
+|	time=1720333146
+echo %clink_inputrc%
+|	time=1720333163
+|link info
+|	time=1720333223
+lstree C:\Users\Praharsha\.clink
+|	time=1720333230
+dir C:\Users\Praharsha\.clink
+|	time=1720333288
+|i C:\Users\Praharsha\AppData\Local\.inputrc
+|	time=1720333334
+|i C:\Users\Praharsha\AppData\Local\.inputrc
+|	time=1720333345
+mi .inputrc
+|	time=1720333355
+|i C:\Users\Praharsha\AppData\Local\.inputrc
+|	time=1720333392
+mi C:\Users\Praharsha\AppData\Local\.inputrc
+|	time=1720333414
+clink info
+|	time=1720333499
+mi C:\Users\Praharsha\AppData\Local\clink\.inputrc
+|	time=1720344295
+bat "C:\Program Files (x86)\clink\default_inputrc"
+|	time=1720344599
+micro C:\Users\Praharsha\AppData\Local\clink\aliases
+|	time=1720344774
+eza -l --octal-permissions --icons
+|	time=1720344822
+eza -l
+|	time=1720345316
+|icro %localappdata%\clink\aliases
+|	time=1720345391
+|s
+|	time=1720345400
+ls E:\
+|	time=1720345425
+cat debug.log
+|	time=1720345446
+|at Pipfile 
+|	time=1720345456
+bat Pipfile
+|	time=1720345479
+micro %localappdata%\clink\aliases
+|	time=1720345490
+bt --pager=never
+|	time=1720345494
+cdcls
+|	time=1720345497
+|ls
+|	time=1720345509
+bat --pager=never
+|	time=1720345513
+|ls
+|	time=1720345517
+ls
+|	time=1720345519
+|ls
+|	time=1720345523
+|ls
+|	time=1720345535
+bat --pager=never Pipfile
+|	time=1720345549
+|at Pipfile 
+|	time=1720345566
+cls
+|	time=1720347871
+cat Pipfile 
+|	time=1720440266
+bat --list themes
+|	time=1720440275
+bat --list-themes
+|	time=1720440400
+echo %BAT_THEME%
+|	time=1720440751
+bat --help
+|	time=1720441023
+bat --config-file
+|	time=1720441035
+bat C:\Users\Praharsha\AppData\Roaming\bat\config
+|	time=1720441044
+|at "C:\Users\Praharsha\AppData\Roaming\bat\config"
+|	time=1720441127
+bat "C:\ProgramData\bat\config"
+|	time=1720441185
+bat --generate-config-file
+|	time=1720441190
+|at "C:\Users\Praharsha\AppData\Roaming\bat\config"
+|	time=1720441288
+micro "C:\Users\Praharsha\AppData\Roaming\bat\config"
+|	time=1720441304
+bat "C:\Users\Praharsha\AppData\Roaming\bat\config"
+|	time=1720443316
+|icro C:\Users\Praharsha\AppData\Local\clink\oh-my-posh.lua
+|	time=1720443361
+mi %POSH_THEMES_PATH%\gruvbox-rainbow.jdson
+|	time=1720443374
+|i %POSH_THEMES_PATH%\gruvbox-rainbow.json
+|	time=1720443399
+|icro C:\Users\Praharsha\AppData\Local\clink\oh-my-posh.lua
+|	time=1720443417
+micro C:\Users\Praharsha\AppData\Local\clink\oh-my-posh.lua
+|	time=1720443437
+mi %POSH_THEMES_PATH%\gruvbox-rainbow.json
+|	time=1720443445
+%POSH_THEMES_PATH%\gruvbox-rainbow.json
+|	time=1720500951
+|db devices
+|	time=1720590982
+|ssadmin list writers
+|	time=1720590988
+|udo vssadmin list writers
+|	time=1720678803
+cd C:\Windows\System32
+|	time=1720678813
+|d/d C:\Windows\System32
+|	time=1720678817
+|udo
+|	time=1720678838
+net stop vss
+|	time=1720678840
+net stop swprv
+|	time=1720678840
+regsvr32 /s ole32.dll
+|	time=1720678840
+regsvr32 /s oleaut32.dll
+|	time=1720678840
+regsvr32 /s vss_ps.dll
+|	time=1720678840
+|ssvc /register
+|	time=1720678840
+regsvr32 /s /i swprv.dll
+|	time=1720678840
+regsvr32 /s /i eventcls.dll
+|	time=1720678840
+regsvr32 /s es.dll
+|	time=1720678841
+regsvr32 /s stdprov.dll
+|	time=1720678841
+regsvr32 /s vssui.dll
+|	time=1720678841
+regsvr32 /s msxml.dll
+|	time=1720678841
+regsvr32 /s msxml3.dll
+|	time=1720678841
+regsvr32 /s msxml4.dll
+|	time=1720678841
+vssvc /register
+|	time=1720678841
+net start swprv
+|	time=1720678851
+net start vss
+|	time=1720679698
+|udo
+|	time=1720680083
+|udo vssadmin list writers
+|	time=1720702176
+sudo vssadmin list writers
+|	time=1720702293
+|udo
+|	time=1720702301
+|ism /Online /Cleanup-Image /CheckHealth
+|	time=1720702679
+Dism /Online /Cleanup-Image /CheckHealth
+|	time=1720702694
+Dism /Online /Cleanup-Image /ScanHealth
+|	time=1720702911
+vssadmin list writers
+|	time=1721048835
+adb devices
+|	time=1721048849
+adb shell am start -n com.google.android.gsf.login/
+|	time=1721386598
+sudo
+|	time=1721386612
+cd/d C:\Windows\System32
+|	time=1721388093
+cd
+|	time=1721390577
+cd
+|	time=1721394718
+clink update
