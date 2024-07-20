@@ -22,7 +22,7 @@
           "style": "diamond",
           "foreground": "p:color_fg0",
           "background": "p:color_orange",
-          "template": "{{ if .WSL }}WSL at {{ end }}{{.Icon}} {{ .UserName }} ",
+          "template": "{{ if .Root }}<#FFDB58> </>{{ end }}{{ if .WSL }}WSL at {{ end }}{{.Icon}} {{ .UserName }} ",
           "properties": {
             "windows" : "󰍲",
             "macos": "mac"
