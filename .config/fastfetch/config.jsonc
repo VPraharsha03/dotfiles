@@ -45,6 +45,7 @@
         //"poweradapter",
         //"locale",
         "break",
-        "colors"
+        "colors",
+        "break"
     ]
 }
