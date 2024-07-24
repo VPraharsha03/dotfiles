@@ -128,7 +128,6 @@
                 "backgroundImage": "ms-appdata:///local/ocean_front_everforest.png",
                 "backgroundImageOpacity": 0.3,
                 "colorScheme": "Monokai Soda v2",
-                "commandline": "cmd.exe \"/K\" \"C:\\Program Files (x86)\\clink\\clink.bat\" startmenu --profile ~\\clink",
                 "cursorShape": "underscore",
                 "font": 
                 {
