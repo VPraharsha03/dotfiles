@@ -5,3 +5,4 @@ dir=dirx.exe --compact -Qv -whjv -Z -a- -f "F19 S D T? G?" $* -k
 mi=micro
 cd=cd/d
 pip=uv pip
+npm=pnpm
