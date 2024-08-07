@@ -3,6 +3,6 @@ ls=eza -l --icons
 cat=bat --pager=never
 dir=dirx.exe --compact -Qv -whjv -Z -a- -f "F19 S D T? G?" $* -k
 mi=micro
-cd=cd/d
+cd=cd/d $1
 pip=uv pip
 npm=pnpm
