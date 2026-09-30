@@ -18,6 +18,9 @@ windows = "$AppData/nushell"
 [dirs.oh-my-posh]
 windows = "$POSH_THEMES_PATH"
 
+[dirs.playnite.DFE]
+windows = "$AppData/Playnite/Themes/Fullscreen/DFE"
+
 [dirs.pwsh]
 windows = "$UserProfile/Documents/WindowsPowerShell"
 

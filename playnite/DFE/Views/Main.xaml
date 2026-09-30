@@ -1,0 +1,419 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                    mc:Ignorable="d">
+
+    <Style TargetType="{x:Type Main}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Main}">
+                    <Grid x:Name="PART_MainHost"
+                          d:DesignWidth="{StaticResource DesignWidth}"
+                          d:DesignHeight="{StaticResource DesignHeight}"
+                          d:DataContext="{x:Static DesignMainViewModel.DesignIntance}">
+                        <Grid x:Name="PART_ViewHost" Background="{DynamicResource MainBackgourndBrush}">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+
+                            <FadeImage x:Name="PART_ImageBackground" Grid.RowSpan="3"
+                                       HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+                            <!-- CHANGED: top bar background made transparent (was TopBarBackgroundBrush); the pill below replaces the solid bar -->
+                            <Grid Grid.Row="0" Background="Transparent"
+                                  Height="110">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="100" />
+                                </Grid.ColumnDefinitions>
+
+                                <!-- CHANGED: PART_FilterPresetSelector moved out of the top bar to the left sidebar below -->
+
+                                <!-- ADDED: translucent pill behind the top-right icon cluster -->
+                                <Border Grid.Column="2" Grid.ColumnSpan="7"
+                                        HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                                        Height="66" Margin="0,0,10,0" CornerRadius="33"
+                                        Background="#33000000" />
+
+                                <ContentControl x:Name="PART_ElemBatteryStatus" Focusable="False" FontSize="42"
+                                            VerticalAlignment="Center" Margin="10,0,10,0"
+                                            Grid.Column="2">
+                                    <ContentControl.Style>
+                                        <Style TargetType="ContentControl">
+                                            <Setter Property="Foreground" Value="{DynamicResource TextBrush}" />
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding PowerStatus.Charge}" Value="Critical">
+                                                    <Setter Property="Content" Value="{DynamicResource BatteryStatusCritical}" />
+                                                    <Setter Property="Foreground" Value="Red" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding PowerStatus.Charge}" Value="Low">
+                                                    <Setter Property="Content" Value="{DynamicResource BatteryStatusLow}" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding PowerStatus.Charge}" Value="Medium">
+                                                    <Setter Property="Content" Value="{DynamicResource BatteryStatusMedium}" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding PowerStatus.Charge}" Value="High">
+                                                    <Setter Property="Content" Value="{DynamicResource BatteryStatusHigh}" />
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding PowerStatus.IsCharging}" Value="True">
+                                                    <Setter Property="Content" Value="{DynamicResource BatteryStatusCharging}" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </ContentControl.Style>
+                                </ContentControl>
+
+                                <TextBlock x:Name="PART_TextBatteryPercentage" Style="{DynamicResource TextBlockBaseStyle}"
+                                       VerticalAlignment="Center" Margin="0,0,20,0"
+                                       Grid.Column="3"/>
+
+                                <TextBlock x:Name="PART_TextClock" Style="{DynamicResource TextBlockBaseStyle}"
+                                       VerticalAlignment="Center" Margin="20,0,20,0"
+                                       Grid.Column="4"/>
+
+                                <ButtonEx x:Name="PART_ButtonProgramUpdate" VerticalAlignment="Center"
+                                          Margin="10,0,10,0" Height="48" MinWidth="48"
+                                          Style="{DynamicResource ButtonTopMenu}"
+                                          Grid.Column="5">
+                                    <ButtonEx.Content>
+                                        <TextBlock Text="&#xef08;" FontFamily="{StaticResource FontIcoFont}"
+                                                   HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2"
+                                                   Foreground="{DynamicResource GlyphLightBrush}" FontSize="30" />
+                                    </ButtonEx.Content>
+                                </ButtonEx>
+
+                                <ButtonEx x:Name="PART_ButtonNotifications" VerticalAlignment="Center"
+                                          Margin="10,0,10,0" Height="48" MinWidth="48"
+                                          Grid.Column="6">
+                                    <Button.Content>
+                                        <Grid>
+                                            <TextBlock Text="&#xeea3;" FontFamily="{StaticResource FontIcoFont}"
+                                                       HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2"
+                                                       Foreground="White" FontSize="30" />
+                                            <TextBlock Text="&#x25CF;" Foreground="{DynamicResource GlyphBrush}"
+                                                       HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                                                       FontSize="24" Margin="0,0,5,0" />
+                                        </Grid>
+                                    </Button.Content>
+                                    <Button.Style>
+                                        <Style TargetType="Button" BasedOn="{StaticResource ButtonTopMenu}">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Api Notifications.Count}" Value="0">
+                                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Button.Style>
+                                </ButtonEx>
+
+                                <ButtonEx x:Name="PART_ButtonMainMenu" VerticalAlignment="Center"
+                                          Style="{DynamicResource ButtonTopMenu}"
+                                          Margin="10,0,10,0" Height="48" MinWidth="48"
+                                          Grid.Column="7">
+                                    <Button.Content>
+                                        <Image RenderOptions.BitmapScalingMode="Fant" Margin="2"
+                                           Source="{ThemeFile 'Images/applogo_clean.png'}" />
+                                    </Button.Content>
+                                </ButtonEx>
+
+                                <!-- ADDED: user avatar button (top-right). Picture comes from Images/user_avatar.png; display only, no click action -->
+                                <ButtonEx x:Name="PART_ButtonUserProfile" VerticalAlignment="Center"
+                                          HorizontalAlignment="Center"
+                                          Margin="0,0,0,0" Height="60" Width="60"
+                                          Style="{DynamicResource ButtonTopMenu}"
+                                          Grid.Column="8">
+                                    <Button.Content>
+                                        <Ellipse Width="46" Height="46">
+                                            <Ellipse.Fill>
+                                                <!-- avatar picture -->
+                                                <ImageBrush Stretch="UniformToFill"
+                                                            ImageSource="{ThemeFile 'Images/user_avatar.png'}" />
+                                            </Ellipse.Fill>
+                                        </Ellipse>
+                                    </Button.Content>
+                                </ButtonEx>
+                            </Grid>
+
+                            <DockPanel Grid.Row="1">
+                                <!-- ADDED: left icon rail = PART_FilterPresetSelector shown as icons (template: CustomControls/FilterPresetSelector.xaml) -->
+                                <Border DockPanel.Dock="Left" Width="90"
+                                        Background="Transparent">
+                                    <!-- CHANGED: VerticalAlignment=Center keeps the icons centered; adjusts automatically to the icon count -->
+                                    <FilterPresetSelector x:Name="PART_FilterPresetSelector"
+                                                           VerticalAlignment="Center"
+                                                           Focusable="False" />
+                                </Border>
+
+                                <!-- DISABLED (kept for reference): genre/platform filter panel, not the preset icons
+                                <Border DockPanel.Dock="Left" Width="90" Background="Transparent">
+                                    <StackPanel Orientation="Vertical" Margin="0,20,0,0">
+                                        <Filters x:Name="PART_ElemFilters" Focusable="False" Visibility="Visible" />
+                                        <FiltersAdditional x:Name="PART_ElemFiltersAdditional" Focusable="False" Visibility="Visible" />
+                                        <ContentControl x:Name="PART_ContentFilterItems" Focusable="False" Visibility="Visible" />
+                                    </StackPanel>
+                                </Border>
+                                -->
+
+                                <!-- CHANGED: bottom margin 310 reserves room for the description panel -->
+                                <ListBoxEx x:Name="PART_ListGameItems" Margin="25,0,25,310"
+                                           Background="Transparent" BorderThickness="0"
+                                           DockPanel.Dock="Right"
+                                           KeyboardNavigation.DirectionalNavigation="Once" />
+                            </DockPanel>
+
+                            <TextBlock Grid.Row="1" FontSize="40"
+                                       Text="{DynamicResource LOCNoGamesFound}"
+                                       TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <TextBlock.Style>
+                                    <Style TargetType="TextBlock" BasedOn="{StaticResource TextBlockBaseStyle}">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding Items.Count, ElementName=PART_ListGameItems}" Value="0">
+                                                <Setter Property="Visibility" Value="Visible" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </TextBlock.Style>
+                            </TextBlock>
+
+                            <!-- ADDED: description box = art layer + tint layer + text panel. Left margin 195 is tuned to line up with the game covers; keep Height/Margin identical on all three layers. All three hide when the game list is empty -->
+                            <!-- bypass rendering artifact to avoid thin lines over description box -->
+                            <Border Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Bottom"
+                                    Height="280" Margin="195,0,40,15" CornerRadius="14"
+                                    IsHitTestVisible="False">
+                                <Border.Background>
+                                    <ImageBrush ImageSource="{Binding SelectedGame.DisplayBackgroundImageObject}"
+                                                Stretch="UniformToFill"/>
+                                </Border.Background>
+                                <Border.Style>
+                                    <Style TargetType="Border">
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding Items.Count, ElementName=PART_ListGameItems}" Value="0">
+                                                <Setter Property="Visibility" Value="Collapsed" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Border.Style>
+                            </Border>
+
+                            <!-- dark-to-clear tint over the art, for text contrast -->
+                            <Border Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Bottom"
+                                    Height="280" Margin="195,0,40,15" CornerRadius="14"
+                                    IsHitTestVisible="False">
+                                <Border.Background>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                        <GradientStop Color="#CC000000" Offset="0" />
+                                        <GradientStop Color="#66000000" Offset="1" />
+                                    </LinearGradientBrush>
+                                </Border.Background>
+                                <Border.Style>
+                                    <Style TargetType="Border">
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding Items.Count, ElementName=PART_ListGameItems}" Value="0">
+                                                <Setter Property="Visibility" Value="Collapsed" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Border.Style>
+                            </Border>
+
+                            <!-- ADDED: description text panel. Hidden when the game has no description or the list is empty. No TextBox inside, so no blinking caret -->
+                            <Border Grid.Row="1" x:Name="PART_ElemDescriptionPanel"
+                                    HorizontalAlignment="Stretch" VerticalAlignment="Bottom"
+                                    Height="280" Margin="195,0,40,15"
+                                    Padding="24,14" CornerRadius="14"
+                                    Focusable="False">
+                                <Border.Style>
+                                    <Style TargetType="Border">
+                                        <Setter Property="Visibility" Value="Visible" />
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding SelectedGame.Description}" Value="{x:Null}">
+                                                <Setter Property="Visibility" Value="Collapsed" />
+                                            </DataTrigger>
+                                            <DataTrigger Binding="{Binding Items.Count, ElementName=PART_ListGameItems}" Value="0">
+                                                <Setter Property="Visibility" Value="Collapsed" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Border.Style>
+                                <Grid>
+                                    <!-- ADDED: horizontal edge fade. With the vertical fade on the ScrollViewer below it hides the thin border HtmlTextView draws. Keep offsets tiny or the first letters fade -->
+                                    <Grid.OpacityMask>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                            <GradientStop Color="#00FFFFFF" Offset="0" />
+                                            <GradientStop Color="#FFFFFFFF" Offset="0.002" />
+                                            <GradientStop Color="#FFFFFFFF" Offset="0.998" />
+                                            <GradientStop Color="#00FFFFFF" Offset="1" />
+                                        </LinearGradientBrush>
+                                    </Grid.OpacityMask>
+                                    <!-- ADDED: scrollable description. Scrollbar stays invisible until the mouse hovers over the box. HtmlForeground (not Foreground) makes the HTML text white; text margin 30,20 keeps it clear of the edge fade -->
+                                    <ScrollViewer x:Name="PART_ScrollDescription"
+                                                  VerticalScrollBarVisibility="Auto"
+                                                  HorizontalScrollBarVisibility="Disabled"
+                                                  Focusable="False" Padding="0,0,14,0">
+                                        <ScrollViewer.OpacityMask>
+                                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                                <GradientStop Color="#00FFFFFF" Offset="0" />
+                                                <GradientStop Color="#FFFFFFFF" Offset="0.012" />
+                                                <GradientStop Color="#FFFFFFFF" Offset="0.988" />
+                                                <GradientStop Color="#00FFFFFF" Offset="1" />
+                                            </LinearGradientBrush>
+                                        </ScrollViewer.OpacityMask>
+                                        <ScrollViewer.Resources>
+                                            <Style TargetType="ScrollBar">
+                                                <Setter Property="Width" Value="6"/>
+                                                <Setter Property="Opacity" Value="0"/>
+                                                <Setter Property="Background" Value="Transparent"/>
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding IsMouseOver, ElementName=PART_ScrollDescription}" Value="True">
+                                                        <Setter Property="Opacity" Value="0.8"/>
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </ScrollViewer.Resources>
+                                        <HtmlTextView HtmlText="{Binding SelectedGame.Description}"
+                                                      HtmlForeground="White"
+                                                      HtmlFontSize="20" HtmlFontFamily="Segoe UI"
+                                                      Margin="30,20,0,0"
+                                                      Focusable="False"/>
+                                    </ScrollViewer>
+                                </Grid>
+                            </Border>
+
+                            <!-- ADDED: SuccessStory achievement summary; shown only when the SuccessStory extension is installed and its integration is enabled -->
+                            <StackPanel Grid.Row="1" x:Name="PART_ElemAchievements"
+                                        HorizontalAlignment="Left" VerticalAlignment="Bottom"
+                                        Margin="115,0,0,220"
+                                        Visibility="{PluginStatus Plugin=SuccessStory, Status=Installed}">
+                                <!-- Compact "X / Y unlocked" button + icon -->
+                                <ContentControl x:Name="SuccessStory_PluginButton" Focusable="False" Margin="0,0,0,10"/>
+                                <!-- Unlock progress bar for the selected game -->
+                                <ContentControl x:Name="SuccessStory_PluginProgressBar" Focusable="False"
+                                                MinHeight="18" MaxHeight="28" MaxWidth="400" HorizontalAlignment="Left"/>
+                            </StackPanel>
+
+                            <Grid Grid.Row="2" Background="{DynamicResource TopBarBackgroundBrush}"
+                              Height="100">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="100" />
+                                </Grid.ColumnDefinitions>
+
+                                <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+                                    <!--Install-->
+                                    <ButtonEx x:Name="PART_ButtonInstall"
+                                              Style="{DynamicResource ButtonBottomMenu}"
+                                              Content="{DynamicResource LOCInstallGame}" />
+                                    <!--Play-->
+                                    <ButtonEx x:Name="PART_ButtonPlay"
+                                              Style="{DynamicResource ButtonBottomMenu}"
+                                              Content="{DynamicResource LOCPlayGame}" />
+                                    <!--Details-->
+                                    <ButtonEx x:Name="PART_ButtonDetails"
+                                              Style="{DynamicResource ButtonBottomMenu}"
+                                              Content="{DynamicResource LOCGameDetails}" />
+                                    <!--Options-->
+                                    <ButtonEx x:Name="PART_ButtonGameOptions"
+                                              Style="{DynamicResource ButtonBottomMenu}"
+                                              Content="{DynamicResource LOCGameOptions}" />
+                                    <!--Search-->
+                                    <ButtonEx x:Name="PART_ButtonSearch"
+                                              Style="{DynamicResource ButtonBottomMenu}"
+                                              Content="{DynamicResource LOCSearchLabel}" />
+                                    <!--Filter-->
+                                    <ButtonEx x:Name="PART_ButtonFilter"
+                                              Style="{DynamicResource ButtonBottomMenu}"
+                                              Content="{DynamicResource LOCFilter}" />
+                                </StackPanel>
+
+                                <StackPanel Grid.Column="2" x:Name="PART_ElemSearchActive"
+                                            VerticalAlignment="Top" HorizontalAlignment="Stretch"
+                                            Margin="0,15,0,0">
+                                    <TextBlock  FontSize="18"
+                                                TextAlignment="Center"
+                                                Style="{DynamicResource TextBlockBaseStyle}"
+                                                Text="{DynamicResource LOCGameListSearchResults}"/>
+                                    <TextBlock  Foreground="White"
+                                                TextAlignment="Center"
+                                                Style="{DynamicResource TextBlockBaseStyle}"
+                                                Text="{Binding AppSettings.Fullscreen.FilterSettings.Name}"/>
+                                </StackPanel>
+
+                                <TextBlock Grid.Column="2" x:Name="PART_ElemExtraFilterActive"
+                                       FontSize="20"
+                                       VerticalAlignment="Center" HorizontalAlignment="Stretch"
+                                       TextAlignment="Center"
+                                       Style="{DynamicResource TextBlockBaseStyle}"
+                                       Text="{DynamicResource LOCGameListExtraFiltered}"/>
+
+                                <StackPanel x:Name="PART_ElemProgressIndicator" Orientation="Horizontal"
+                                        Grid.Column="3" VerticalAlignment="Center">
+                                    <TextBlock x:Name="PART_TextProgressTooltip"
+                                           Margin="0,0,15,0" FontSize="20" VerticalAlignment="Center"
+                                           Style="{DynamicResource TextBlockBaseStyle}"/>
+                                    <ContentControl Style="{DynamicResource ProgressIndicator}" Focusable="False"
+                                                Height="38" Width="38" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+
+                        <GameDetails x:Name="PART_ElemGameDetails" Grid.RowSpan="3"
+                                     HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+
+                        <GameStatus x:Name="PART_ElemGameStatus" Grid.RowSpan="3"
+                                     HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+
+                        <!--
+                            CHANGED: intro video now hard-cuts at exactly 3s instead of waiting for the file's
+                            natural end. Playback is driven by a MediaTimeline inside a Storyboard (not the
+                            MediaElement's own Source/autoplay) with Duration="0:0:3" - that Duration is what
+                            actually stops the clock at 3s. MediaElement.LoadedBehavior must be "Manual" for
+                            this to work; a Storyboard-driven timeline conflicts with the default "Play"
+                            autoplay behavior. Fade-out starts right at the 3s mark (BeginTime="0:0:3"), fully
+                            collapsed by 3.6s.
+                        -->
+                        <Grid x:Name="PART_IntroVideoOverlay" Grid.RowSpan="3"
+                              Background="Black">
+                            <Grid.Triggers>
+                                <EventTrigger RoutedEvent="Loaded">
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <MediaTimeline Storyboard.TargetName="PART_IntroVideo"
+                                                           Source="{ThemeFile 'Videos/video.mp4'}"
+                                                           Duration="0:0:3.6" />
+                                            <DoubleAnimation Storyboard.TargetName="PART_IntroVideoOverlay"
+                                                             Storyboard.TargetProperty="Opacity"
+                                                             BeginTime="0:0:3.6" To="0" Duration="0:0:0.6" />
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="PART_IntroVideoOverlay"
+                                                                           Storyboard.TargetProperty="Visibility"
+                                                                           BeginTime="0:0:4.2">
+                                                <DiscreteObjectKeyFrame Value="{x:Static Visibility.Collapsed}" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </Grid.Triggers>
+                            <MediaElement x:Name="PART_IntroVideo"
+                                          LoadedBehavior="Manual" UnloadedBehavior="Stop"
+                                          Stretch="Uniform"
+                                          HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Grid>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

@@ -1,0 +1,66 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- CHANGED: each preset is now an icon tile (was a text tab). Icon file = Images/Icons/FilterPresets/<preset name>.png; a preset without a file shows an empty tile; tooltip shows the name -->
+    <Style x:Key="ItemFilterQuickPreset" TargetType="CheckBoxEx">
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="Foreground" Value="{DynamicResource TextBrush}" />
+        <Setter Property="ToolTip" Value="{Binding Name}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="CheckBoxEx">
+                    <Border x:Name="IconHost" Width="58" Height="58" Margin="0,6,0,6"
+                            CornerRadius="10" Background="{TemplateBinding Background}"
+                            BorderThickness="2" BorderBrush="Transparent">
+                        <Image x:Name="Icon" Width="30" Height="30" Opacity="0.55"
+                               RenderOptions.BitmapScalingMode="Fant"
+                               Source="{ThemeFileBinding Name, PathFormat='Images/Icons/FilterPresets/{0}.png'}" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsFocused" Value="True">
+                            <Setter Property="BorderBrush" Value="{DynamicResource SelectionBrush}" TargetName="IconHost" />
+                            <Setter Property="Opacity" Value="1" TargetName="Icon" />
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter Property="Background" Value="#22FFFFFF" TargetName="IconHost" />
+                            <Setter Property="Opacity" Value="1" TargetName="Icon" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- CHANGED: preset list is vertical (was horizontal): vertical StackPanel, vertical scrolling, HorizontalLayout=False -->
+    <Style TargetType="{x:Type FilterPresetSelector}">
+        <Setter Property="Focusable" Value="False" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type FilterPresetSelector}">
+                    <ItemsControlEx x:Name="PART_ItemsFilterPresets" Focusable="False"
+                                    KeyboardNavigation.DirectionalNavigation="Once"
+                                    HorizontalLayout="False">
+                        <ItemsControl.ItemsPanel>                            
+                            <ItemsPanelTemplate>
+                                <StackPanel Orientation="Vertical" />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.Template>
+                            <ControlTemplate>
+                                <ScrollViewer Focusable="False"
+                                              HorizontalScrollBarVisibility="Disabled"
+                                              VerticalScrollBarVisibility="Hidden"
+                                              CanContentScroll="True">
+                                    <ItemsPresenter />
+                                </ScrollViewer>
+                            </ControlTemplate>
+                        </ItemsControl.Template>
+                    </ItemsControlEx>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
